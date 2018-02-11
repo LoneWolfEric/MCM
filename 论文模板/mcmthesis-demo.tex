@@ -1,4 +1,3 @@
-
 % !Mode:: "TeX:UTF-8"
 %% This is file `mcmthesis-demo.tex',
 %% generated with the docstrip utility.
@@ -31,12 +30,12 @@
 
 \documentclass{mcmthesis}
 \mcmsetup{CTeX = true,   % 使用 CTeX 套装时，设置为 true
-        tcn = O Prize Group, problem = B,
+        tcn = 84018, problem = C,
         sheet = true, titleinsheet = true, keywordsinsheet = true,
         titlepage = true, abstract = false}
 %设置摘要页格式，一般按照该设置就行，true表示选择，false表示不选择，需要修改控制号和选择的题目
 \usepackage{palatino}
-
+\usepackage[section]{placeins}
 %\usepackage{lipsum} %添加lipsum宏包，就是随机生成一段文本，可以不使用
 
 \usepackage[UTF8, nocap]{ctex} %如果想使用中文输入的话，可以增加该宏包
@@ -47,10 +46,13 @@
 % {\includegraphics[width=7cm]{mcmthesis-logo}}}
 %\date{\today}
 
- %正文摘要和控制页摘要名字修改
+%正文摘要和控制页摘要名字修改
 %\def\abstractname{Abstract}
 %\def\sheetsummaryname{Summary}
-
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
 
 
 \begin{document}
@@ -72,33 +74,94 @@ hello world
 %\lipsum[2]
 %\end{abstract}
 
- %关键词
+%关键词
 \begin{keywords}
 hello; world
 \end{keywords}
 
 \maketitle
  % Generate the Table of Contents, if it's needed.
- \tableofcontents
- \newpage
+\tableofcontents
+\newpage
 
-
-\section{Introduction}
+\section{Overview}
     \subsection{Background}
-     In past decades, we’ve got plenty of researches about toll plaza design and operation model which were applied in our life, such as queuing theory, finite state machine princi-ple, and cellular automata model. Actually,  the designs were suitable.
-      On 5 Oct. 2016 The New York Times reported that “In an effort to reduce congestion, tollbooths will be eliminated at all Metropolitan Transportation Authority bridges and tun-nels next year, and replaced with automatic tolling, Gov. Andrew M. Cuomo announced on Wednesday.”
-      With the popularity of ETC and automated tollbooths, we need a new model to stimu-late traffic including accident prevention, throughput and cost.
-      More than this, there will be more and more autonomous (self-driving) vehicles added to the traffic mix which make the traffic more complex than ever.
-      So to accommodate this change, the point is to determine if there are better solutions (shape, size, and merging pattern) than any in common use.
+    The rapid development of modern social economy benefits from the development of energy production. The issue of energy usage and production has always been the focus of world economic development.
+
+    In the 21st century, with the economic development and improvement, the energy shortage and the increasing contradiction between supply and demand. Meanwhile, the production and use of fossil energy sources have had a huge negative impact on the environment. Therefore, developing clean and renewable energy is imperative.
+
+    The differences between states such as geography, industry, population, climate lead to the contradiction of energy supply.
+    Interstate cooperation and joint management and development of clean and renewable energy are regarded as the best solution to these problems. Nowadays four state governors  – California, Arizona, New Mexico and Texas  –  wish to form a realistic new energy compact. Texas leads the country in total (non-hydro) installed renewable energy capacity, almost all of which comes from the state’s 9,410 MW of wind capacity. California is the leader in solar energy installed capacity, both for photovoltaic technology (738 MW) and concentrating solar power (364 MW).
+
+    \subsection{Restatement of the Problem}
+    We are required to provide an overview of energy profile for each of the four states and model how these profiles have evolved from 1960 to 2009. In addition, it is necessary to make our results understandable through discussion, including similarities and differences between 4 states. Then we need to establish a criteria model and choose the "best" profile use of cleaner, renewable energy usage targets. Finally, we need to give our suggestions about exact action to achieve the goal we set based on what we predict.
+
+    In order to identify
+    In order to determine whether it is clean and renewable energy, for which we check the information and classification of various types of energy.
+
+
+    \noindent
+    cleaner, renewable energy ( defination from SEDS and ):
+    \begin{itemize}
+      \item Conventional hydroelectric power
+      \item Solar thermal direct use energy and photovoltaic electricity net generation
+      \item Electricity produced by wind
+      \item Wood and wood-derived fuels, biomass waste
+      \item Fuel ethanol minus denaturant
+    \end{itemize}
+
+\section{Notations and Assumptions}
+
+    \subsection{Notations}
+         \begin{table}[!htbp]
+           %\centering
+                \begin{tabular}{c|l}
+                  \hline
+                  Symbol & Meaning \\
+                  \hline
+                  n & the number of samples \\
+                  p & the number of original indicators \\
+                  k & the number of principal component \\
+                  X & \{$x_{ij}$\} original data matrix (i = 1, 2,…, n ; j = 1,2,…,p ) \\
+                  Z & \{$z_{ij}$\} standardization matrix with z-scores (i = 1, 2,…, n ; j = 1,2,…,p ) \\
+                  U & \{$u_{ij}$\} partial covariance matrix (i = 1, 2,…, n ; j = 1,2,…,p ) \\
+                  C & \{$c_{ij}$\} covariance matrix (j = 1,2,…,p ) \\
+                  R & \{$r_{ij}$\} correlation matrix (j = 1,2,…,p ) \\
+                  F & \{$f_{ij}$\} The eigenvectors matrix of Z (j = 1,2,…,p ) \\
+                  Y & \{$y_{ij}$\} principal component matrix (i = 1, 2,…, n ; j = 1,2,…,k) \\
+                  V & \{$v_{ij}$\} decision matrix (i = 1, 2,…, n ; j = 1,2,…,k) \\
+                  $A^+$/$A^-$ & positive / negative ideal profile \\
+                  $S_{i}^+$/$S_{i}^-$ & positive / negative ideal profile \\
+                  $\lambda_{j}$ & the eigenvalues of Z (j=1,2,…,p) \\
+                  $y_{i}$ & principal component \\
+                  $C_{i}$ & the final performance score in TOPSIS method \\
+                  kmo & the value of KMO test \\
+                  \hline
+                \end{tabular}
+           \caption{Abbreviation and Description}
+         \end{table}
+
+    \subsection{Assumptions and Justifications}
+        \noindent
+        We make the following basic assumptions in order to simplify the problem. Each of our assumptions is justified and is consistent with the basic fact.
+        \begin{enumerate}
+          \item \textbf{Ignore the external costs caused by power generation other than coal:}
+
+              In 2005, the mean external damage of coal in the United States due to coal combustion was 3.2 cents/kWh, The external cost of natural gas power generation is 0.16 cents/kwh, which is actually almost entirely caused by coal-fired power. Also life-cycle CO2 emissions from nuclear, wind, biomass, and solar appear so small as to be negligible compared with those from fossil fuels.(information comes from the report "Hidden cost of energy unpriced consequences of energy production and use" )
+          \item \textbf{The conversion between generation and consumption is 100\%, and the consumption is used to represent the amount of power generation to evaluate.}
+
+        \end{enumerate}
+
+
+\section{Model overview}
+    Firstly, considering energy production and consumption, environmental impact, technology, economy, we extract 12 variables from 605 variables to get general energy profile of each state.
+
+    In order to show the evolution of energy production, we construct a comprehensive evaluation index system for the level of cleaner, renewable energy development. We use the \textbf{Principal Component Analysis} method to carry out the correlation cluster analysis of the index. To make the similarities and differences between 4 states understandable, we use \textbf{TOPSIS} method to show our results.At the same time, we can get the extracted principal componment choosing the "best" profile from comprehensive evaluation results ranking.
+
+    After determining the “best” profile, we use \textbf{ARIMA} method to predict the energy profile of each state, especially as we evaluate the cleaner, renewable energy development in the future.
 
 
 
-\section{Literature review}
-
-         A statistical test recommends that arrivals at the toll plaza conform to the standard assump-tion of a Poisson process with exponential interarrival times.This is well supported in the literature (Hasofer, 1964; Schwartz, 1974; Grassman, 1980; Green, 1985; Blackwell, 1988).
-
-
-    \section{Assumptions}
         \begin{enumerate}
           \item There are three options for each vehicle arriving at the toll plaza and each car entered the shortest path of the queue.
           \item All the toll booths are same except charge method (width, construction cost e.t.c )

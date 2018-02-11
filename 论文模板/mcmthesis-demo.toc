@@ -1,19 +1,22 @@
-\contentsline {section}{\numberline {1}Introduction}{3}{section.1}
+\contentsline {section}{\numberline {1}Overview}{3}{section.1}
 \contentsline {subsection}{\numberline {1.1}Background}{3}{subsection.1.1}
-\contentsline {section}{\numberline {2}Literature review}{3}{section.2}
-\contentsline {section}{\numberline {3}Assumptions}{3}{section.3}
-\contentsline {section}{\numberline {4}Statement of our Model}{4}{section.4}
-\contentsline {subsection}{\numberline {4.1}Definition}{4}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Other Assumptions}{6}{subsection.4.2}
-\contentsline {section}{\numberline {5}Analysis of the Problem}{6}{section.5}
-\contentsline {section}{\numberline {6}Calculating and Simplifying the Model }{7}{section.6}
-\contentsline {section}{\numberline {7}The Model Results}{8}{section.7}
-\contentsline {section}{\numberline {8}Validating the Model}{8}{section.8}
-\contentsline {section}{\numberline {9}Conclusions}{8}{section.9}
-\contentsline {section}{\numberline {10}A Summary}{9}{section.10}
-\contentsline {section}{\numberline {11}Evaluate of the Mode}{9}{section.11}
-\contentsline {section}{\numberline {12}Strengths and weaknesses}{9}{section.12}
-\contentsline {subsection}{\numberline {12.1}Strengths}{9}{subsection.12.1}
-\contentsline {section}{Appendices}{10}{section*.2}
-\contentsline {section}{Appendix \numberline {A}First appendix}{10}{Appendix.a.A}
-\contentsline {section}{Appendix \numberline {B}Second appendix}{11}{Appendix.a.B}
+\contentsline {subsection}{\numberline {1.2}Restatement of the Problem}{3}{subsection.1.2}
+\contentsline {section}{\numberline {2}Notations and Assumptions}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Notations}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Assumptions and Justifications}{4}{subsection.2.2}
+\contentsline {section}{\numberline {3}Model overview}{5}{section.3}
+\contentsline {section}{\numberline {4}Statement of our Model}{6}{section.4}
+\contentsline {subsection}{\numberline {4.1}Definition}{6}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Other Assumptions}{8}{subsection.4.2}
+\contentsline {section}{\numberline {5}Analysis of the Problem}{8}{section.5}
+\contentsline {section}{\numberline {6}Calculating and Simplifying the Model }{10}{section.6}
+\contentsline {section}{\numberline {7}The Model Results}{10}{section.7}
+\contentsline {section}{\numberline {8}Validating the Model}{10}{section.8}
+\contentsline {section}{\numberline {9}Conclusions}{11}{section.9}
+\contentsline {section}{\numberline {10}A Summary}{11}{section.10}
+\contentsline {section}{\numberline {11}Evaluate of the Mode}{11}{section.11}
+\contentsline {section}{\numberline {12}Strengths and weaknesses}{12}{section.12}
+\contentsline {subsection}{\numberline {12.1}Strengths}{12}{subsection.12.1}
+\contentsline {section}{Appendices}{13}{section*.2}
+\contentsline {section}{Appendix \numberline {A}First appendix}{13}{Appendix.a.A}
+\contentsline {section}{Appendix \numberline {B}Second appendix}{13}{Appendix.a.B}
