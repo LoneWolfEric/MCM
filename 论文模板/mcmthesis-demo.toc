@@ -4,19 +4,19 @@
 \contentsline {section}{\numberline {2}Notations and Assumptions}{4}{section.2}
 \contentsline {subsection}{\numberline {2.1}Notations}{4}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Assumptions and Justifications}{4}{subsection.2.2}
-\contentsline {section}{\numberline {3}Model overview}{5}{section.3}
-\contentsline {section}{\numberline {4}Statement of our Model}{6}{section.4}
-\contentsline {subsection}{\numberline {4.1}Definition}{6}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Other Assumptions}{8}{subsection.4.2}
-\contentsline {section}{\numberline {5}Analysis of the Problem}{8}{section.5}
-\contentsline {section}{\numberline {6}Calculating and Simplifying the Model }{10}{section.6}
-\contentsline {section}{\numberline {7}The Model Results}{10}{section.7}
-\contentsline {section}{\numberline {8}Validating the Model}{10}{section.8}
-\contentsline {section}{\numberline {9}Conclusions}{11}{section.9}
-\contentsline {section}{\numberline {10}A Summary}{11}{section.10}
-\contentsline {section}{\numberline {11}Evaluate of the Mode}{11}{section.11}
-\contentsline {section}{\numberline {12}Strengths and weaknesses}{12}{section.12}
-\contentsline {subsection}{\numberline {12.1}Strengths}{12}{subsection.12.1}
-\contentsline {section}{Appendices}{13}{section*.2}
-\contentsline {section}{Appendix \numberline {A}First appendix}{13}{Appendix.a.A}
-\contentsline {section}{Appendix \numberline {B}Second appendix}{13}{Appendix.a.B}
+\contentsline {section}{\numberline {3}Statement of Our Model}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}Model Overview}{6}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Model Theory}{6}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Principal Component Analysis Theory}{6}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Autoregressive Integrated Moving Average Model}{8}{subsubsection.3.2.2}
+\contentsline {section}{\numberline {4}Model Implementation and Results}{9}{section.4}
+\contentsline {subsection}{\numberline {4.1}Definition}{9}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Other Assumptions}{9}{subsection.4.2}
+\contentsline {section}{\numberline {5}Our suggestions to the governor}{10}{section.5}
+\contentsline {section}{\numberline {6}Model analysis}{11}{section.6}
+\contentsline {subsection}{\numberline {6.1}Sensitivity Analysis}{11}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Strength and weakness}{11}{subsection.6.2}
+\contentsline {section}{\numberline {7}Conclusions}{12}{section.7}
+\contentsline {section}{Appendices}{14}{section*.2}
+\contentsline {section}{Appendix \numberline {A}First appendix}{14}{Appendix.a.A}
+\contentsline {section}{Appendix \numberline {B}Second appendix}{14}{Appendix.a.B}

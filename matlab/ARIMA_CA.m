@@ -1,10 +1,10 @@
-y = xlsread('C:\Users\yuhui\Desktop\代码和论文\matlab\工作簿10.xlsx','I1:I50');
-Data=y;              %共50个数据
-SourceData=Data(1:50,1); %前250个训练集
-step=41;                  %后50个测试
-TempData=SourceData;
+y_CA = xlsread('C:\Users\yuhui\Desktop\代码和论文\matlab\工作簿16.xlsx','C2:C34');
+Data_CA=y_CA;              %共50个数据
+SourceData_CA=Data_CA(1:23,1); %前250个训练集
+step=10;                  %后50个测试
+TempData=SourceData_CA;
 TempData=detrend(TempData);%去趋势线
-TrendData=SourceData-TempData;%趋势函数
+TrendData=SourceData_CA-TempData;%趋势函数
 %--------差分，平稳化时间序列---------
 H=adftest(TempData);
 difftime=0;
@@ -53,14 +53,12 @@ for j=1:step
 xt=[xt,size(TrendData',2)+j];
 end
 TrendResult=polyval(mp1,xt);
-PreData=TrendResult+PreR(size(SourceData',2)+1:size(PreR,2));
-tempx=[TrendData',TrendResult]+PreR;    % tempx为预测结果
-plot(tempx,'r');
-hold on 
-plot(Data,'b');
-
-
-
+PreData=TrendResult+PreR(size(SourceData_CA',2)+1:size(PreR,2));
+tempx_CA=[TrendData',TrendResult]+PreR;    % tempx为预测结果
+hold on
+plot(tempx_CA,'b'); 
+hold on
+plot(Data_CA,'c');
 
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2018.2.2)  12 FEB 2018 05:10
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2018.2.2)  13 FEB 2018 00:54
 entering extended mode
 **mcmthesis-demo.tex
 (C:\Users\yuhui\Desktop\代码和论文\论文模板\mcmthesis-demo.tex
@@ -1374,7 +1374,7 @@ File: omsppl.fd
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 106.
 
-Overfull \hbox (0.61548pt too wide) in paragraph at lines 118--141
+Overfull \hbox (0.61548pt too wide) in paragraph at lines 117--147
 [][] 
  []
 
@@ -1406,6 +1406,29 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [7]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8] <estimate.jpg, id=182, 2168.1pt x 1276.77pt>
+File: estimate.jpg Graphic file (type jpg)
+ <use estimate.jpg>
+Package pdftex.def Info: estimate.jpg used on input line 285.
+(pdftex.def)             Requested size: 451.68915pt x 265.9866pt.
+
+Overfull \hbox (27.62881pt too wide) in paragraph at lines 285--286
+ [][] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9]
 Package epstopdf Info: Source file: <./figures/mcmthesis-aaa.eps>
 (epstopdf)                    date: 2016-01-29 20:25:52
 (epstopdf)                    size: 458067 bytes
@@ -1415,32 +1438,32 @@ df>
 (epstopdf)                    size: 78739 bytes
 (epstopdf)             Command: <epstopdf --outfile=./figures/mcmthesis-aaa-eps
 -converted-to.pdf ./figures/mcmthesis-aaa.eps>
-(epstopdf)             \includegraphics on input line 272.
+(epstopdf)             \includegraphics on input line 307.
 Package epstopdf Info: Output file is already uptodate.
 
-<./figures/mcmthesis-aaa-eps-converted-to.pdf, id=173, 421.575pt x 317.185pt>
+<./figures/mcmthesis-aaa-eps-converted-to.pdf, id=190, 421.575pt x 317.185pt>
 File: ./figures/mcmthesis-aaa-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./figures/mcmthesis-aaa-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/mcmthesis-aaa-eps-converted-to.pdf used on i
-nput line 272.
+nput line 307.
 (pdftex.def)             Requested size: 341.43306pt x 256.89423pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./figures/0.jpg, id=175, 258.9675pt x 258.9675pt>
+<./figures/0.jpg, id=192, 258.9675pt x 258.9675pt>
 File: ./figures/0.jpg Graphic file (type jpg)
  <use ./figures/0.jpg>
-Package pdftex.def Info: ./figures/0.jpg used on input line 282.
+Package pdftex.def Info: ./figures/0.jpg used on input line 317.
 (pdftex.def)             Requested size: 169.62477pt x 169.63086pt.
 File: ./figures/0.jpg Graphic file (type jpg)
 
 <use ./figures/0.jpg>
-Package pdftex.def Info: ./figures/0.jpg used on input line 287.
+Package pdftex.def Info: ./figures/0.jpg used on input line 322.
 (pdftex.def)             Requested size: 169.62477pt x 169.63086pt.
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 280--290
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 315--325
 []$[]$ $[]$ 
  []
 
@@ -1453,31 +1476,27 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8]
+[10 <C:/Users/yuhui/Desktop/代码和论文/论文模板/estimate.jpg>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9 <C:/Users/yuhui/Desktop/代码和论文/论文模板/figures/mcmthesis-aaa-e
-ps-converted-to.pdf> <C:/Users/yuhui/Desktop/代码和论文/论文模板/figur
-es/0.jpg>]
+[11 <C:/Users/yuhui/Desktop/代码和论文/论文模板/figures/mcmthesis-aaa-
+eps-converted-to.pdf> <C:/Users/yuhui/Desktop/代码和论文/论文模板/figu
+res/0.jpg>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[11]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 464.
+[12]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 477.
  (C:\CTEX\MiKTeX\tex\latex\psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
@@ -1487,7 +1506,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12]
+[13]
 (C:\Users\yuhui\Desktop\代码和论文\论文模板\code\mcmthesis-matlab1.m
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10> not available
 (Font)              Font shape `T1/pcr/b/n' tried instead on input line 1.
@@ -1508,31 +1527,31 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13])
+[14])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14] 
+[15] 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 485.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 485.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 498.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 498.
 (C:\Users\yuhui\Desktop\代码和论文\论文模板\mcmthesis-demo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 485.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 485.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 498.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 498.
 Package rerunfilecheck Info: File `mcmthesis-demo.out' has not changed.
-(rerunfilecheck)             Checksum: 88E8B9C592918FDEA9DD9A89A12A3558;1314.
+(rerunfilecheck)             Checksum: C718495D57FB8C6DF971106911FA5112;1450.
  ) 
 Here is how much of TeX's memory you used:
- 18517 strings out of 495354
- 269110 string characters out of 3183860
- 429307 words of memory out of 3000000
- 21003 multiletter control sequences out of 15000+200000
- 55951 words of font info for 140 fonts, out of 3000000 for 9000
+ 18403 strings out of 495354
+ 267751 string characters out of 3183860
+ 429046 words of memory out of 3000000
+ 20902 multiletter control sequences out of 15000+200000
+ 50778 words of font info for 129 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 47i,13n,100p,890b,2925s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,13n,100p,890b,2883s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/CTEX/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C:/WINDOWS/Fonts/simsun.ttc>
 <C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/sim
 sun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/F
@@ -1548,22 +1567,20 @@ DOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc
 ><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/si
 msun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/
 Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/
-WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.
-ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts
-/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDO
-WS/Fonts/simsun.ttc><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/CTEX/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmmi8.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmr12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/CTEX/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmsy8.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/courier/ucrb8a.pfb><C
-:/CTEX/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/CTEX/MiKTeX/fonts/type1/ur
-w/helvetic/uhvb8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/C
-TEX/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/
-palatino/uplr8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on mcmthesis-demo.pdf (15 pages, 576230 bytes).
+WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/CTEX/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmex10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmmi12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/CTEX/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/CTEX/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmr8.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/CTEX/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmsy8.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/courier/u
+crb8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/CTEX/MiKTeX/fo
+nts/type1/urw/helvetic/uhvb8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/helvetic/uhvr
+8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/CTEX/MiKTeX/font
+s/type1/urw/palatino/uplr8a.pfb>
+Output written on mcmthesis-demo.pdf (16 pages, 686477 bytes).
 PDF statistics:
- 598 PDF objects out of 1000 (max. 8388607)
- 109 named destinations out of 1000 (max. 500000)
- 379 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 571 PDF objects out of 1000 (max. 8388607)
+ 112 named destinations out of 1000 (max. 500000)
+ 356 words of extra memory for PDF output out of 10000 (max. 10000000)
 

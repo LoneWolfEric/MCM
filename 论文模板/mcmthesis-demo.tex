@@ -111,7 +111,6 @@ hello; world
     \end{itemize}
 
 \section{Notations and Assumptions}
-
     \subsection{Notations}
          \begin{table}[!htbp]
            %\centering
@@ -136,6 +135,13 @@ hello; world
                   $y_{i}$ & principal component \\
                   $C_{i}$ & the final performance score in TOPSIS method \\
                   kmo & the value of KMO test \\
+                  p & autoregressive terms \\
+                  d & differential times \\
+                  q & average moving term \\
+                  $y_{t}$ & the original data sequence \\
+                  $y_{t}^{'}$ & smooth data sequence \\
+                  $\hat{\rho_{k}}$ & the auto-correlation function \\
+                  $\hat{\varphi_{kk}}$ & partial auto-correlation function \\
                   \hline
                 \end{tabular}
            \caption{Abbreviation and Description}
@@ -149,110 +155,139 @@ hello; world
 
               In 2005, the mean external damage of coal in the United States due to coal combustion was 3.2 cents/kWh, The external cost of natural gas power generation is 0.16 cents/kwh, which is actually almost entirely caused by coal-fired power. Also life-cycle CO2 emissions from nuclear, wind, biomass, and solar appear so small as to be negligible compared with those from fossil fuels.(information comes from the report "Hidden cost of energy unpriced consequences of energy production and use" )
           \item \textbf{The conversion between generation and consumption is 100\%, and the consumption is used to represent the amount of power generation to evaluate.}
-
         \end{enumerate}
 
 
-\section{Model overview}
+\section{Statement of Our Model}
+    \subsection{Model Overview}
     Firstly, considering energy production and consumption, environmental impact, technology, economy, we extract 12 variables from 605 variables to get general energy profile of each state.
 
     In order to show the evolution of energy production, we construct a comprehensive evaluation index system for the level of cleaner, renewable energy development. We use the \textbf{Principal Component Analysis} method to carry out the correlation cluster analysis of the index. To make the similarities and differences between 4 states understandable, we use \textbf{TOPSIS} method to show our results.At the same time, we can get the extracted principal componment choosing the "best" profile from comprehensive evaluation results ranking.
 
     After determining the “best” profile, we use \textbf{ARIMA} method to predict the energy profile of each state, especially as we evaluate the cleaner, renewable energy development in the future.
 
+    \subsection{Model Theory}
+        \subsubsection{Principal Component Analysis Theory}
+        The purpose of PCA is to use the idea of dimensionality reduction to convert multipleindicators into a few composite indicators. When using statistical methods to study multivariable problems, too many variables will increase the computational complexity and increase the complexity of analyzing the problems. We hope that in the process of quantitative analysis, fewer comprehensive variables are involved to make the results more Intuitive.
 
-
+        The method can be summarized as follows :
+        
         \begin{enumerate}
-          \item There are three options for each vehicle arriving at the toll plaza and each car entered the shortest path of the queue.
-          \item All the toll booths are same except charge method (width, construction cost e.t.c )
-          \item The arrival process is Poisson
+          \item \textbf{Organize the data set and normalization}
+          Supposing that there are n samples, and each sample has P indicators, the original variable data X are arranged as a set of n data vectors with each representing a single grouped observation of the p variables, which as shown in formula(1)
+
+
+
+
+
+              \begin{table}[!hbpt]
+                \centering
+                { X } = $\begin{vmatrix} { x }_{ 1 }^{ T } \\ { x }_{ 2 }^{ T } \\ ... \\ { x }_{ n }^{ T } \end{vmatrix}$ = $\begin{vmatrix} { { x }_{ 11 } } & { x }_{ 12 } & ... & { x }_{ 1p } \\ { x }_{ 21 } & { x }_{ 22 } & ... & { x }_{ 2p } \\ ... & ... & ... & ... \\ { x }_{ n1 } & { x }_{ n2 } & ... & { x }_{ np } \end{vmatrix}$              \end{table}
+
+              We choose zero-mean normalization to standardize the original data matrix.The standard score of a raw score xij is shown as formula(2)
+
+             \begin{table}[!hbpt]
+               \centering
+               $${ z }_{ ij }\quad =\quad \frac { { x }_{ ij }-\mu_{j}  }{ \sigma_{j}  }$$
+             \end{table}
+
+             where:
+             $\mu_{j}$ is the mean of the row j .
+
+             $\sigma_{j}$ is the standard deviation of the row j.
+
+             Then we get the standardization matrix Z as shown in formula(3).
+
+             \begin{table}[!hbpt]
+               \centering
+               $${ Z }=\begin{vmatrix} { { z }_{ 11 } } & { z }_{ 12 } & ... & { z }_{ 1p } \\ { z }_{ 21 } & { z }_{ 22 } & ... & { z }_{ 2p } \\ ... & ... & ... & ... \\ { z }_{ n1 } & { z }_{ n2 } & ... & { z }_{ np } \end{vmatrix}$$
+             \end{table}
+
+
+          \item \textbf{Determine the correlation between the indicators}
+              Correlation test is a statistical test of how the variables are related and how relevant they are. Thus, it’s also the basis of principal component analysis. The Kaiser-MeyerOlkin (KMO) test method is used in this model. Correlation coefficient is a statistical indicator of the close relationship between the response variables, whose range of values between 1 to -1.
+
+              The formula(4) for KMO test is :
+              $${ kmo }_{ j }\quad =\quad \frac { \sum _{ i\neq j }^{  }{ { r }_{ ij }^{ 2 } }  }{ \sum _{ i\neq j }^{  }{ { r }_{ ij }^{ 2 } } +\sum _{ i\neq j }^{  }{ { u }_{ ij }^{ 2 } }  }$$
+
+              where :
+
+              //R = [$r_{ij}$] is the correlation matrix.
+
+              U = [$u_{ij}$] is the partial covariance matrix.
+
+              And for reference, Kaiser put the following values on the results :
+
+              \begin{table}[!hbpt]
+                \centering
+                \begin{tabular}{l|l}
+                  \hline
+                  value range & result \\
+                  0.00 to 0.49 & unacceptable \\
+                  0.60 to 0.69 & miserable \\
+                  0.70 to 0.79 & mediocre \\
+                  0.80 to 0.89 & meritorious \\
+                  0.90 to 1.00 & marvelous \\
+                  \hline
+                \end{tabular}
+                \caption{KMO reference table}
+              \end{table}
+        \end{enumerate}
+        
+        
+        
+        
+       
+              
+        \subsubsection{Autoregressive Integrated Moving Average Model}
+        The basic idea of this ARIMA model is to assume that the time series under study is a non-stationary time series generated by a random process. The non-stationary time series is treated several times to make it a stationary time series. Then the time series observations Value to establish the autoregressive moving average model of the stochastic process, using the optimal model established to predict.ARIMA model has 3 parameters. It is usually recorded as ARIMA(p,d,q). ARIMA is one of ARMA's expansion.
+        ARMA's general expression is as followed:
+        $$y_{t}=\varphi_{1}y_{t-1}+\varphi_{2}y_{t-2}+...\varphi_{p}y_{t-p}+u_{t}$$
+        \textbf{Predictive model establishment process:}
+        \begin{enumerate}
+          \item Obtain and pretreate the data:
+
+           Do run-length test to determine whether the sequence is a smooth sequence. if it is a non-stationary sequence, using the difference method to make it smooth: $y_{t-i}^{'}$ = $y_{t}$ - $y_{t-1}$, The sequence is preprocessed. After each difference, the data is run-tested until the difference data can pass the stationarity test and recorded as d-difference to obtain a new stationary sequence: $y_{1}^{'}$, $y_{2}^{'}$, $y_{3}^{'}$.
+
+          \item ARMA model recognition:
+
+          Model recognition was performed by calculating the(ACF)$\hat{\rho_{k}}$and pre-processed (PACF)$\hat{\varphi_{kk}}$ of the preconditioned sequence $y_{t}^{'}$.
+
+          $$\hat{\rho_{k}} = \frac{\sum_{t=1}^{N-k}y_{t+k}^{'}y_{t}^{'}}{N}$$
+
+          $$\hat{\varphi}_{11} = \hat{\rho_{1}}$$
+          $$\hat{\varphi}_{k+1,k-1} = (\hat{\rho}_{k+1}-\sum_{j=1}^{k}\hat{\rho}_{k+1-j}\hat{\varphi}_{kj})(1-\sum_{j=1}^{k}\hat{\rho}_{j}\hat{\varphi}_{kj})^{-1}$$
+          $$\hat{\varphi}_{k+1,j} = \hat{\varphi}_{jk} - \hat{\varphi}_{k+1,k+1}\hat{\varphi}_{k,k+1-j},j = 1, 2, ......, k $$
+
+          \item Parameter Estimation and Model Ordering. ARIMA model parameter identification using Marquardt nonlinear least squares method.
+
+          \item Model test:
+          First, we must test whether the model can satisfy the stability and reversibility. If the model is chosen properly, the residual sequence should be a white noise sequence.We can get a reliability prediction model.
+
+          $$y_{t}^{'}=\hat{\varphi_{1}}y_{t-1}^{'}+\hat{\varphi_{2}}y_{t-2}^{'}+...\hat{\varphi_{p}}y_{t-p}^{'}+u_{t}$$
+
+
         \end{enumerate}
 
 
-\section{Statement of our Model}
+
+
+
+
+
+
+\section{Model Implementation and Results}
 
     \subsection{Definition}
-        \begin{table}
+    
+        \begin{figure}[!hbpt]
           \centering
-                \begin{tabular}{ll}
-                \hline
-                h  &  Conventional (human-staffed) tollbooths \\
-                a  &  Exact-change (automated) tollbooths \\
-                e  &  Electronic toll collection booths \\
-                B$_{i}$  &  Number of types i tollbooths \\
-                b$_{i}$  &  Number of type i tollbooths to open, where a \\
-                B  &  Number of tollbooths \\
-                L  &  Number of main lanes \\
-                l$_{i}$  &  Lower bound for the number of type i lanes to open \\
-                u$_{i}$  &  Upper bound for the number of type i lanes to open \\
-                $\lambda _{i}$ & Mean arrival rate for lane type i, where \\
-                \hline
-                \end{tabular}
-            \caption{Definition}
-        \end{table}
+          \includegraphics[width=450px]{estimate.jpg}
+          \caption{estimate}
+        \end{figure}
+    
+    
 
-        \begin{itemize}
-              \item h--Conventional (human-staffed) tollbooths
-              \item a--Exact-change (automated) tollbooths
-              \item e--Electronic toll collection booths
-              \item B$_{i}$--Number of types i tollbooths
-              \item b$_{i}$--Number of type i tollbooths to open, where
-              \item B--Number of tollbooths
-              \item L--Number of main lanes
-              \item l$_{i}$--Lower bound for the number of type i lanes to open
-              \item u$_{i}$--Upper bound for the number of type i lanes to open
-              \item $\lambda_{i}$--Mean arrival rate for lane type i, where
-              \item $\lambda$--Mean total arrival rate of vehicles at the toll plaza, i.e., the number of arrivals per unit time
-              \item $\mu_{i}$--Mean service rate for a type i tollbooth, i.e., the number of service completions per unit time
-              \item $\sigma_{i}$--Standard deviation of service time for a type i tollbooth
-              \item W--Mean total waiting time in the queue for all arrivals at the toll plaza
-              \item c$_{i}$--The rate of the operating cost of a type i lane
-              \item d--The rate of the operating cost of a type i lane
-              \item c$_{o}$--The total operating costs at the toll plaza per unit time
-              \item c$_{w}$--The total user-waiting costs at the toll plaza per unit time
-              \item Z--The sum of total operating and user-waiting costs at the toll plaza per unit time
-              \item l--the length of buffer segment
-              \item w--the width of booth
-              \item y$_{i}$--Traffic accident prediction
-        \end{itemize}
-
-
-
-
-
-
-
-
-
-
-    \begin{itemize}
-    \item minimizes the discomfort to the hands, or
-    \item maximizes the outgoing velocity of the ball.
-    \end{itemize}
-    We focus exclusively on the second definition.
-
-    \begin{itemize}
-    \item the initial velocity and rotation of the ball,
-    \item the initial velocity and rotation of the bat,
-    \item the relative position and orientation of the bat and ball, and
-    \item the force over time that the hitter hands applies on the handle.
-    \end{itemize}
-    \begin{itemize}
-    \item the angular velocity of the bat,
-    \item the velocity of the ball, and
-    \item the position of impact along the bat.
-    \end{itemize}
-    \emph{center of percussion} [Brody 1986],
-
-    \begin{Theorem} \label{thm:latex}
-    \LaTeX
-    \end{Theorem}
-    \begin{Lemma} \label{thm:tex}
-    \TeX .
-    \end{Lemma}
-    \begin{proof}
-    The proof of theorem.
-    \end{proof}
 
     \subsection{Other Assumptions}
 
@@ -265,7 +300,7 @@ hello; world
 
 
 
-\section{Analysis of the Problem}
+\section{Our suggestions to the governor}
 \begin{figure}[h]
 %\small
 \centering
@@ -321,16 +356,16 @@ a^2 \label{aa}
   \right)!}}} \eqno (1)
 \]
 
-\section{Calculating and Simplifying the Model  }
-
+\section{Model analysis}
+    \subsection{Sensitivity Analysis}
+    \subsection{Strength and weakness}
 
 $\mathop{A}_{ij}$ and $A_{ij}$ 不一样
 
 $\left(123 \right)$ and $（123）$ and （123） 不一样
-\section{The Model Results}
 
 
-\section{Validating the Model}
+
 
 CTEX中最繁琐的是表格输入,不过数学建模竞赛中，一般要求输入三线表，这样统一格式的情况下，对于输入表格就简单一点了。\\
 \\
@@ -420,29 +455,7 @@ Let's to see Table \ref{SIGN}.
 
 
 
-\section{A Summary}
 
-
-写入你的中文
-如果你不想显示上面的那段文字，那就把lipsum删掉
-
-获得更多的latex教材，请添加latex交流群，或者关注迈思数模微信公众号：shumohome
-并回复“LATEX资料”
-美赛LATEX模板交流群：193607493
-美赛LATEX模板交流群：193607493
-
-\section{Evaluate of the Mode}
-
-美赛获得更多的latex教材，请添加latex交流群，或者关注迈思数模微信公众号：shumohome
-并回复“LATEX资料”
-美赛LATEX模板交流群：193607493
-\section{Strengths and weaknesses}
-
-获得更多的latex教材，请添加latex交流群，或者关注迈思数模微信公众号：shumohome
-并回复“LATEX资料”
-美赛LATEX模板交流群：193607493
-
-\subsection{Strengths}
 \begin{itemize}
 \item \textbf{Applies widely}\\
 This  system can be used for many types of airplanes, and it also

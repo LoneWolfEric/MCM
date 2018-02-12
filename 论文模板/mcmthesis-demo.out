@@ -4,19 +4,19 @@
 \BOOKMARK [1][-]{section.2}{Notations and Assumptions}{}% 4
 \BOOKMARK [2][-]{subsection.2.1}{Notations}{section.2}% 5
 \BOOKMARK [2][-]{subsection.2.2}{Assumptions and Justifications}{section.2}% 6
-\BOOKMARK [1][-]{section.3}{Model overview}{}% 7
-\BOOKMARK [1][-]{section.4}{Statement of our Model}{}% 8
-\BOOKMARK [2][-]{subsection.4.1}{Definition}{section.4}% 9
-\BOOKMARK [2][-]{subsection.4.2}{Other Assumptions}{section.4}% 10
-\BOOKMARK [1][-]{section.5}{Analysis of the Problem}{}% 11
-\BOOKMARK [1][-]{section.6}{Calculating and Simplifying the Model }{}% 12
-\BOOKMARK [1][-]{section.7}{The Model Results}{}% 13
-\BOOKMARK [1][-]{section.8}{Validating the Model}{}% 14
-\BOOKMARK [1][-]{section.9}{Conclusions}{}% 15
-\BOOKMARK [1][-]{section.10}{A Summary}{}% 16
-\BOOKMARK [1][-]{section.11}{Evaluate of the Mode}{}% 17
-\BOOKMARK [1][-]{section.12}{Strengths and weaknesses}{}% 18
-\BOOKMARK [2][-]{subsection.12.1}{Strengths}{section.12}% 19
+\BOOKMARK [1][-]{section.3}{Statement of Our Model}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{Model Overview}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.2}{Model Theory}{section.3}% 9
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Principal Component Analysis Theory}{subsection.3.2}% 10
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Autoregressive Integrated Moving Average Model}{subsection.3.2}% 11
+\BOOKMARK [1][-]{section.4}{Model Implementation and Results}{}% 12
+\BOOKMARK [2][-]{subsection.4.1}{Definition}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.2}{Other Assumptions}{section.4}% 14
+\BOOKMARK [1][-]{section.5}{Our suggestions to the governor}{}% 15
+\BOOKMARK [1][-]{section.6}{Model analysis}{}% 16
+\BOOKMARK [2][-]{subsection.6.1}{Sensitivity Analysis}{section.6}% 17
+\BOOKMARK [2][-]{subsection.6.2}{Strength and weakness}{section.6}% 18
+\BOOKMARK [1][-]{section.7}{Conclusions}{}% 19
 \BOOKMARK [1][-]{section*.2}{Appendices}{}% 20
 \BOOKMARK [1][-]{Appendix.a.A}{Appendix First appendix}{}% 21
 \BOOKMARK [1][-]{Appendix.a.B}{Appendix Second appendix}{}% 22
