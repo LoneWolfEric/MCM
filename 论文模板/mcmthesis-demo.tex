@@ -215,6 +215,7 @@ hello; world
 
           The scores of principal components are calculate method is shown as formula.
                $$ y_m = F_m \times B (m=1,2,...,k)  $$
+          \end{enumerate}
         \subsubsection{Technique for Order Preference by Similarity to Ideal Solution}
           TOPSIS is a method of compensatory aggregation that compares a set of alternatives by identifying weights for each criterion, normalizing scores for each criterion and calculating the geometric distance between each alternative and the ideal alternative, which is the best score in each criterion.
           The method is carried out as follows :
@@ -226,10 +227,6 @@ hello; world
                \centering
                $$ { Y }=\begin{vmatrix} { y }_{ 1 } \\ { y }_{ 2 } \\ ... \\ { y }_{ n } \end{vmatrix}=\begin{vmatrix} { { y }_{ 11 } } & { y }_{ 12 } & ... & { y }_{ 1k } \\ { y }_{ 21 } & { y }_{ 22 } & ... & { y }_{ 2k } \\ ... & ... & ... & ... \\ { y }_{ n1 } & { y }_{ n2 } & ... & { y }_{ nk } \end{vmatrix} $$
              \end{table}
-           \item
-           \end{enumerate}
-
-        \begin{enumerate}
           \item \textbf{Calculate the weighted normalized criteria matrix}
           We  use a set of weights from PCA for each criteria $w_{j}$. Multiply each column of the normalized decision matrix by its associated weight. An element of the new matrix is shown as formula(11)
             \begin{table}[!hbpt]
@@ -241,10 +238,7 @@ hello; world
                \centering
                $$ { w  }_{ j }=\frac { { { \lambda  }_{ j } }  }{ \sum _{ j\quad =\quad 1 }^{ k }{ { \lambda  }_{ j } }  } ,(j =1,2,...,k) $$
              \end{table}
-            \item
-           \end{enumerate}
 
-        \begin{enumerate}
           \item \textbf{Determine the ideal and negative ideal profiles}
           Positive ideal solution is determined as formula(13)
             \begin{table}[!hbpt]
@@ -266,10 +260,7 @@ hello; world
                \centering
                $$ { v }_{ j }^{ - }=\{ min({ v }_{ ij }),if\quad j\in J_+;max({ v }_{ ij }),if\quad j\in J_-\}   $$
              \end{table}
-            \item
-           \end{enumerate}
-
-        \begin{enumerate}
+             
           \item \textbf{Calculate the separation measures for each alternative}
          The separation from the positive ideal alternative is shown as formula(17):
             \begin{table}[!hbpt]
@@ -281,10 +272,7 @@ hello; world
                \centering
                $$ { S }_{ i }^{ - }=\sqrt { \sum _{ j\quad =1 }^{ k }{ { ({ v }_{ ij }-{ v }_{ j }^{ - }) }^{ 2 } }  } ,i = 1,2,..n $$
              \end{table}
-            \item
-           \end{enumerate}
-
-        \begin{enumerate}
+          
           \item \textbf{Calculate the relative closeness to the ideal profile}
          Calculate the similarity to the worst condition as formula(19):
             \begin{table}[!hbpt]
@@ -295,15 +283,11 @@ hello; world
          if $$ C_{i}=1 $$,the alternative sample has the best condition; and
          if $$ C_{i}=0 $$,the alternative sample has the worst condition.
 
-            \item
-           \end{enumerate}
-
-        \begin{enumerate}
+          
           \item \textbf{Rank the preference order}
         Rank the alternatives using $C_i$ index value in decreasing order. An alternative with largest index value ($C_i$) has shortest distance from positive ideal profile and farthest distance from negative ideal profile.
 
-            \item
-           \end{enumerate}
+        \end{enumerate}
 
 \section{Model Implementation and Results}
         \subsection{Energy Profile}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2018.2.2)  13 FEB 2018 05:42
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2018.2.2)  13 FEB 2018 05:58
 entering extended mode
 **mcmthesis-demo.tex
 (C:\Users\yuhui\Desktop\代码和论文\论文模板\mcmthesis-demo.tex
@@ -1128,7 +1128,7 @@ Package ifpdf Info: The package is already loaded, stopped on input line 64.
 ))
 (C:\CTEX\MiKTeX\tex\latex\ctex\def\ctex-utf8.def)
 (C:\CTEX\MiKTeX\tex\latex\ctex\cfg\ctex.cfg)
-No file mcmthesis-demo.aux.
+(C:\Users\yuhui\Desktop\代码和论文\论文模板\mcmthesis-demo.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
 LaTeX Font Info:    ... okay on input line 58.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
@@ -1210,6 +1210,7 @@ LaTeX Font Info:    ... okay on input line 58.
 LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 58.
 LaTeX Font Info:    ... okay on input line 58.
 LaTeX Font Info:    Try loading font information for T1+ppl on input line 58.
+
 (C:\CTEX\MiKTeX\tex\latex\psnfss\t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
@@ -1332,14 +1333,15 @@ File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 84.
 
+(C:\Users\yuhui\Desktop\代码和论文\论文模板\mcmthesis-demo.toc
 
-Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
+[1])
 \tf@toc=\write5
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 85.
-
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 85.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1347,7 +1349,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[1]
+[2]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 88.
 LaTeX Font Info:    Try loading font information for C70+rm on input line 94.
@@ -1358,15 +1360,12 @@ Package CJKpunct Info: punctuation spaces for family 'zhsong' do not exist. Use
  family 'def' instead. on input line 94.
 
 
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 104.
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2]
+[3]
 LaTeX Font Info:    Try loading font information for OMS+ppl on input line 104.
 
  (C:\CTEX\MiKTeX\tex\latex\psnfss\omsppl.fd
@@ -1380,28 +1379,12 @@ Overfull \hbox (0.61548pt too wide) in paragraph at lines 125--155
  []
 
 
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 159.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[3]
-
-LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 159.
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [4]
-
-LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 179.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1410,18 +1393,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [5]
 
-LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 216.
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [6]
-
-LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 270.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1430,9 +1407,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [7]
 
-LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 288.
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
@@ -1440,149 +1414,121 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [8]
 
-LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 314.
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9] <ener.png, id=93, 621.32124pt x 572.1375pt>
+[9] <ener.png, id=217, 621.32124pt x 572.1375pt>
 File: ener.png Graphic file (type png)
  <use ener.png>
-Package pdftex.def Info: ener.png used on input line 317.
+Package pdftex.def Info: ener.png used on input line 301.
 (pdftex.def)             Requested size: 401.50146pt x 369.7199pt.
 
 
-LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 323.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
+[10]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10 <C:/Users/yuhui/Desktop/代码和论文/论文模板/ener.png>]
-<AZ.png, id=106, 546.04pt x 399.4925pt>
+[11 <C:/Users/yuhui/Desktop/代码和论文/论文模板/ener.png>]
+<AZ.png, id=242, 546.04pt x 399.4925pt>
 File: AZ.png Graphic file (type png)
  <use AZ.png>
-Package pdftex.def Info: AZ.png used on input line 335.
+Package pdftex.def Info: AZ.png used on input line 319.
 (pdftex.def)             Requested size: 327.62653pt x 239.69734pt.
 
-<AZ1.jpg, id=107, 683.55376pt x 342.27875pt>
+<AZ1.jpg, id=243, 683.55376pt x 342.27875pt>
 File: AZ1.jpg Graphic file (type jpg)
  <use AZ1.jpg>
-Package pdftex.def Info: AZ1.jpg used on input line 341.
+Package pdftex.def Info: AZ1.jpg used on input line 325.
 (pdftex.def)             Requested size: 410.13542pt x 205.36882pt.
 
-<CA.png, id=108, 525.965pt x 374.39874pt>
+<CA.png, id=244, 525.965pt x 374.39874pt>
 File: CA.png Graphic file (type png)
  <use CA.png>
-Package pdftex.def Info: CA.png used on input line 348.
+Package pdftex.def Info: CA.png used on input line 332.
 (pdftex.def)             Requested size: 315.58142pt x 224.64098pt.
 
-<CA1.jpg, id=109, 683.55376pt x 338.26375pt>
+<CA1.jpg, id=245, 683.55376pt x 338.26375pt>
 File: CA1.jpg Graphic file (type jpg)
  <use CA1.jpg>
-Package pdftex.def Info: CA1.jpg used on input line 353.
+Package pdftex.def Info: CA1.jpg used on input line 337.
 (pdftex.def)             Requested size: 410.13542pt x 202.95981pt.
 
-<NM.png, id=110, 556.0775pt x 380.42125pt>
+<NM.png, id=246, 556.0775pt x 380.42125pt>
 File: NM.png Graphic file (type png)
  <use NM.png>
-Package pdftex.def Info: NM.png used on input line 360.
+Package pdftex.def Info: NM.png used on input line 344.
 (pdftex.def)             Requested size: 333.64908pt x 228.2545pt.
 
-<NM1.jpg, id=111, 683.55376pt x 338.26375pt>
+<NM1.jpg, id=247, 683.55376pt x 338.26375pt>
 File: NM1.jpg Graphic file (type jpg)
  <use NM1.jpg>
-Package pdftex.def Info: NM1.jpg used on input line 365.
+Package pdftex.def Info: NM1.jpg used on input line 349.
 (pdftex.def)             Requested size: 410.13542pt x 202.95981pt.
 
-<TX.png, id=112, 602.25pt x 375.4025pt>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12 <C:/Users/yuhui/Desktop/代码和论文/论文模板/AZ.png>]
+<TX.png, id=261, 602.25pt x 375.4025pt>
 File: TX.png Graphic file (type png)
  <use TX.png>
-Package pdftex.def Info: TX.png used on input line 373.
+Package pdftex.def Info: TX.png used on input line 357.
 (pdftex.def)             Requested size: 361.35278pt x 225.24323pt.
 
-<TX1.jpg, id=113, 683.55376pt x 338.26375pt>
+<TX1.jpg, id=262, 683.55376pt x 338.26375pt>
 File: TX1.jpg Graphic file (type jpg)
  <use TX1.jpg>
-Package pdftex.def Info: TX1.jpg used on input line 380.
+Package pdftex.def Info: TX1.jpg used on input line 364.
 (pdftex.def)             Requested size: 410.13542pt x 202.95981pt.
 
 
-LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 387.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
+[13 <C:/Users/yuhui/Desktop/代码和论文/论文模板/AZ1.jpg> <C:/Users/yuh
+ui/Desktop/代码和论文/论文模板/CA.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11]
-
-LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 422.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[12 <C:/Users/yuhui/Desktop/代码和论文/论文模板/AZ.png> <C:/Users/yuhu
-i/Desktop/代码和论文/论文模板/AZ1.jpg>]
-Overfull \hbox (108.03111pt too wide) in paragraph at lines 428--441
+[14 <C:/Users/yuhui/Desktop/代码和论文/论文模板/CA1.jpg> <C:/Users/yuh
+ui/Desktop/代码和论文/论文模板/NM.png>]
+Overfull \hbox (108.03111pt too wide) in paragraph at lines 412--425
 [][] 
  []
 
 
-LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 442.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
+[15 <C:/Users/yuhui/Desktop/代码和论文/论文模板/NM1.jpg> <C:/Users/yuh
+ui/Desktop/代码和论文/论文模板/TX.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13 <C:/Users/yuhui/Desktop/代码和论文/论文模板/CA.png> <C:/Users/yuhu
-i/Desktop/代码和论文/论文模板/CA1.jpg>]
-
-LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 461.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[14 <C:/Users/yuhui/Desktop/代码和论文/论文模板/NM.png> <C:/Users/yuhu
-i/Desktop/代码和论文/论文模板/NM1.jpg>]
-
-LaTeX Warning: Reference `LastPage' on page 15 undefined on input line 461.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[15 <C:/Users/yuhui/Desktop/代码和论文/论文模板/TX.png> <C:/Users/yuhu
-i/Desktop/代码和论文/论文模板/TX1.jpg>]
-
-LaTeX Warning: Reference `LastPage' on page 16 undefined on input line 461.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[16]
-
-LaTeX Warning: Reference `LastPage' on page 17 undefined on input line 527.
-
+[16 <C:/Users/yuhui/Desktop/代码和论文/论文模板/TX1.jpg>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1591,9 +1537,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [17]
 
-LaTeX Warning: Reference `LastPage' on page 18 undefined on input line 527.
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
@@ -1601,7 +1544,37 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [18]
 
-LaTeX Warning: Reference `LastPage' on page 19 undefined on input line 537.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[19]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20] <estimate.jpg, id=325, 2168.1pt x 1276.77pt>
+File: estimate.jpg Graphic file (type jpg)
+ <use estimate.jpg>
+Package pdftex.def Info: estimate.jpg used on input line 549.
+(pdftex.def)             Requested size: 451.68915pt x 265.9866pt.
+
+Overfull \hbox (27.62881pt too wide) in paragraph at lines 549--550
+ [][] 
+ []
+
+<Y1.jpg, id=326, 2168.1pt x 1276.77pt>
+File: Y1.jpg Graphic file (type jpg)
+ <use Y1.jpg>
+Package pdftex.def Info: Y1.jpg used on input line 559.
+(pdftex.def)             Requested size: 451.68915pt x 265.9866pt.
+
+Overfull \hbox (27.62881pt too wide) in paragraph at lines 559--560
+ [][] 
+ []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1609,77 +1582,41 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[19] <estimate.jpg, id=185, 2168.1pt x 1276.77pt>
-File: estimate.jpg Graphic file (type jpg)
- <use estimate.jpg>
-Package pdftex.def Info: estimate.jpg used on input line 565.
+[21 <C:/Users/yuhui/Desktop/代码和论文/论文模板/estimate.jpg>]
+<Y2.jpg, id=334, 2168.1pt x 1276.77pt>
+File: Y2.jpg Graphic file (type jpg)
+ <use Y2.jpg>
+Package pdftex.def Info: Y2.jpg used on input line 565.
 (pdftex.def)             Requested size: 451.68915pt x 265.9866pt.
 
 Overfull \hbox (27.62881pt too wide) in paragraph at lines 565--566
  [][] 
  []
 
-<Y1.jpg, id=186, 2168.1pt x 1276.77pt>
-File: Y1.jpg Graphic file (type jpg)
- <use Y1.jpg>
-Package pdftex.def Info: Y1.jpg used on input line 575.
-(pdftex.def)             Requested size: 451.68915pt x 265.9866pt.
-
-Overfull \hbox (27.62881pt too wide) in paragraph at lines 575--576
- [][] 
- []
-
-<Y2.jpg, id=187, 2168.1pt x 1276.77pt>
-File: Y2.jpg Graphic file (type jpg)
- <use Y2.jpg>
-Package pdftex.def Info: Y2.jpg used on input line 581.
-(pdftex.def)             Requested size: 451.68915pt x 265.9866pt.
-
-Overfull \hbox (27.62881pt too wide) in paragraph at lines 581--582
- [][] 
- []
-
-<Y3.jpg, id=188, 2168.1pt x 1276.77pt>
+<Y3.jpg, id=335, 2168.1pt x 1276.77pt>
 File: Y3.jpg Graphic file (type jpg)
  <use Y3.jpg>
-Package pdftex.def Info: Y3.jpg used on input line 587.
+Package pdftex.def Info: Y3.jpg used on input line 571.
 (pdftex.def)             Requested size: 451.68915pt x 265.9866pt.
 
-Overfull \hbox (27.62881pt too wide) in paragraph at lines 587--588
+Overfull \hbox (27.62881pt too wide) in paragraph at lines 571--572
  [][] 
  []
 
 
-LaTeX Warning: Reference `LastPage' on page 20 undefined on input line 592.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
+[22 <C:/Users/yuhui/Desktop/代码和论文/论文模板/Y1.jpg>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20]
-
-LaTeX Warning: Reference `LastPage' on page 21 undefined on input line 592.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[21 <C:/Users/yuhui/Desktop/代码和论文/论文模板/estimate.jpg> <C:/User
-s/yuhui/Desktop/代码和论文/论文模板/Y1.jpg>]
-
-LaTeX Warning: Reference `LastPage' on page 22 undefined on input line 592.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[22 <C:/Users/yuhui/Desktop/代码和论文/论文模板/Y2.jpg> <C:/Users/yuhu
+[23 <C:/Users/yuhui/Desktop/代码和论文/论文模板/Y2.jpg> <C:/Users/yuhu
 i/Desktop/代码和论文/论文模板/Y3.jpg>]
 Package epstopdf Info: Source file: <./figures/mcmthesis-aaa.eps>
 (epstopdf)                    date: 2016-01-29 20:25:52
@@ -1690,63 +1627,41 @@ df>
 (epstopdf)                    size: 78739 bytes
 (epstopdf)             Command: <epstopdf --outfile=./figures/mcmthesis-aaa-eps
 -converted-to.pdf ./figures/mcmthesis-aaa.eps>
-(epstopdf)             \includegraphics on input line 596.
+(epstopdf)             \includegraphics on input line 580.
 Package epstopdf Info: Output file is already uptodate.
 
-<./figures/mcmthesis-aaa-eps-converted-to.pdf, id=210, 421.575pt x 317.185pt>
+<./figures/mcmthesis-aaa-eps-converted-to.pdf, id=349, 421.575pt x 317.185pt>
 File: ./figures/mcmthesis-aaa-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./figures/mcmthesis-aaa-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/mcmthesis-aaa-eps-converted-to.pdf used on i
-nput line 596.
+nput line 580.
 (pdftex.def)             Requested size: 341.43306pt x 256.89423pt.
 
-
-LaTeX Warning: Reference `aa' on page 23 undefined on input line 601.
-
-<./figures/0.jpg, id=211, 258.9675pt x 258.9675pt>
+<./figures/0.jpg, id=351, 258.9675pt x 258.9675pt>
 File: ./figures/0.jpg Graphic file (type jpg)
  <use ./figures/0.jpg>
-Package pdftex.def Info: ./figures/0.jpg used on input line 606.
+Package pdftex.def Info: ./figures/0.jpg used on input line 590.
 (pdftex.def)             Requested size: 169.62477pt x 169.63086pt.
 File: ./figures/0.jpg Graphic file (type jpg)
 
 <use ./figures/0.jpg>
-Package pdftex.def Info: ./figures/0.jpg used on input line 611.
+Package pdftex.def Info: ./figures/0.jpg used on input line 595.
 (pdftex.def)             Requested size: 169.62477pt x 169.63086pt.
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 604--614
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 588--598
 []$[]$ $[]$ 
  []
 
 
-LaTeX Warning: Reference `LastPage' on page 23 undefined on input line 629.
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[23 <C:/Users/yuhui/Desktop/代码和论文/论文模板/figures/mcmthesis-aaa-
+[24 <C:/Users/yuhui/Desktop/代码和论文/论文模板/figures/mcmthesis-aaa-
 eps-converted-to.pdf> <C:/Users/yuhui/Desktop/代码和论文/论文模板/figu
 res/0.jpg>]
-
-LaTeX Warning: Reference `LastPage' on page 24 undefined on input line 685.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[24]
-
-LaTeX Warning: Reference `SIGN' on page 25 undefined on input line 717.
-
-
-LaTeX Warning: Reference `LastPage' on page 25 undefined on input line 749.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1754,8 +1669,98 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [25]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 766.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[26]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 750.
  (C:\CTEX\MiKTeX\tex\latex\psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-(C:\Users\yuh
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27]
+(C:\Users\yuhui\Desktop\代码和论文\论文模板\code\mcmthesis-matlab1.m
+LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10> not available
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 1.
+)
+(C:\Users\yuhui\Desktop\代码和论文\论文模板\code\mcmthesis-sudoku.cpp
+Overfull \hbox (43.94443pt too wide) in paragraph at lines 1--2
+[][][][][][][][][] 
+ []
+
+
+Overfull \hbox (43.94443pt too wide) in paragraph at lines 7--9
+[][][][][][][][][] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[28])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[29] 
+AED: lastpage setting LastPage
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 771.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 771.
+(C:\Users\yuhui\Desktop\代码和论文\论文模板\mcmthesis-demo.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 771.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 771.
+Package rerunfilecheck Info: File `mcmthesis-demo.out' has not changed.
+(rerunfilecheck)             Checksum: C816923DAFF7EDB809C9A97E41179216;1826.
+ ) 
+Here is how much of TeX's memory you used:
+ 18535 strings out of 495354
+ 268992 string characters out of 3183860
+ 429873 words of memory out of 3000000
+ 20962 multiletter control sequences out of 15000+200000
+ 51046 words of font info for 130 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 47i,13n,100p,890b,2889s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/CTEX/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C:/WINDOWS/Fonts/simsun.ttc>
+<C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/sim
+sun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/F
+onts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/W
+INDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.t
+tc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/
+simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOW
+S/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C
+:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsu
+n.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fon
+ts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WIN
+DOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc
+><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/si
+msun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/
+Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/
+WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.
+ttc><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/CTEX/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmmi12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmmi8.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
+/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/CTEX/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmsy6.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/CTEX/MiK
+TeX/fonts/type1/urw/courier/ucrb8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/courier/
+ucrr8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/CTEX/MiKTeX/
+fonts/type1/urw/helvetic/uhvr8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/palatino/up
+lb8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on mcmthesis-demo.pdf (30 pages, 1471565 bytes).
+PDF statistics:
+ 741 PDF objects out of 1000 (max. 8388607)
+ 169 named destinations out of 1000 (max. 500000)
+ 460 words of extra memory for PDF output out of 10000 (max. 10000000)
+
