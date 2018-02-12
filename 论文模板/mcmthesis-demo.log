@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2018.2.2)  13 FEB 2018 05:58
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2018.2.2)  13 FEB 2018 06:32
 entering extended mode
 **mcmthesis-demo.tex
 (C:\Users\yuhui\Desktop\代码和论文\论文模板\mcmthesis-demo.tex
@@ -1128,104 +1128,124 @@ Package ifpdf Info: The package is already loaded, stopped on input line 64.
 ))
 (C:\CTEX\MiKTeX\tex\latex\ctex\def\ctex-utf8.def)
 (C:\CTEX\MiKTeX\tex\latex\ctex\cfg\ctex.cfg)
+(C:\CTEX\MiKTeX\tex\latex\subfigure\subfigure.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip79
+\subfigcapskip=\skip80
+\subfigcaptopadj=\dimen190
+\subfigbottomskip=\skip81
+\subfigcapmargin=\dimen191
+\subfiglabelskip=\skip82
+\c@subfigure=\count292
+\c@lofdepth=\count293
+\c@subtable=\count294
+\c@lotdepth=\count295
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(C:\CTEX\MiKTeX\tex\latex\subfigure\subfigure.cfg)
+\subfig@top=\skip83
+\subfig@bottom=\skip84
+)
 (C:\Users\yuhui\Desktop\代码和论文\论文模板\mcmthesis-demo.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 60.
 
 (C:\CTEX\MiKTeX\tex\latex\psnfss\t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 (C:\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count292
-\scratchdimen=\dimen190
+\scratchcounter=\count296
+\scratchdimen=\dimen192
 \scratchbox=\box46
-\nofMPsegments=\count293
-\nofMParguments=\count294
+\nofMPsegments=\count297
+\nofMParguments=\count298
 \everyMPshowfont=\toks41
-\MPscratchCnt=\count295
-\MPscratchDim=\dimen191
-\MPnumerator=\count296
-\makeMPintoPDFobject=\count297
+\MPscratchCnt=\count299
+\MPscratchDim=\dimen193
+\MPnumerator=\count300
+\makeMPintoPDFobject=\count301
 \everyMPtoPDFconversion=\toks42
 )
 Package lastpage Info: Please have a look at the pageslts package at
@@ -1234,8 +1254,8 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 58.
-\c@lstlisting=\count298
+(lastpage)             ! on input line 60.
+\c@lstlisting=\count302
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1272,18 +1292,18 @@ Package lastpage Info: Please have a look at the pageslts package at
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box47
-Package hyperref Info: Link coloring OFF on input line 58.
+Package hyperref Info: Link coloring OFF on input line 60.
 (C:\CTEX\MiKTeX\tex\latex\hyperref\nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
 (C:\CTEX\MiKTeX\tex\generic\oberdiek\gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count299
+\c@section@level=\count303
 )
-LaTeX Info: Redefining \ref on input line 58.
-LaTeX Info: Redefining \pageref on input line 58.
-LaTeX Info: Redefining \nameref on input line 58.
+LaTeX Info: Redefining \ref on input line 60.
+LaTeX Info: Redefining \pageref on input line 60.
+LaTeX Info: Redefining \nameref on input line 60.
 
 (C:\Users\yuhui\Desktop\代码和论文\论文模板\mcmthesis-demo.out)
 (C:\Users\yuhui\Desktop\代码和论文\论文模板\mcmthesis-demo.out)
@@ -1301,37 +1321,37 @@ File: UTF8.enc 2008/12/29 4.8.2
 (C:\CTEX\MiKTeX\tex\latex\cjk\UTF8\UTF8.chr
 File: UTF8.chr 2008/12/29 4.8.2
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 82.
+LaTeX Font Info:    Try loading font information for U+msa on input line 84.
 
 (C:\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 82.
+LaTeX Font Info:    Try loading font information for U+msb on input line 84.
 
 (C:\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 82.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 84.
 
 (C:\CTEX\MiKTeX\tex\latex\jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 82.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 84.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 82.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 84.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 82.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 84.
  [1
 
 ]
-LaTeX Font Info:    Try loading font information for T1+phv on input line 84.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 86.
 
 (C:\CTEX\MiKTeX\tex\latex\psnfss\t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 84.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 86.
 
 (C:\Users\yuhui\Desktop\代码和论文\论文模板\mcmthesis-demo.toc
 
@@ -1351,13 +1371,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 88.
-LaTeX Font Info:    Try loading font information for C70+rm on input line 94.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 90.
+LaTeX Font Info:    Try loading font information for C70+rm on input line 96.
  (C:\CTEX\MiKTeX\tex\latex\ctex\fd\c70rm.fd
 File: c70rm.fd 2007/05/06 v0.8a ctexutf8 font definition file
 )
 Package CJKpunct Info: punctuation spaces for family 'zhsong' do not exist. Use
- family 'def' instead. on input line 94.
+ family 'def' instead. on input line 96.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1366,15 +1386,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [3]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 104.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 106.
 
  (C:\CTEX\MiKTeX\tex\latex\psnfss\omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 104.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 106.
 
-Overfull \hbox (0.61548pt too wide) in paragraph at lines 125--155
+Overfull \hbox (0.61548pt too wide) in paragraph at lines 127--157
  [][] 
  []
 
@@ -1419,10 +1439,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9] <ener.png, id=217, 621.32124pt x 572.1375pt>
+[9]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10] <ener.png, id=231, 621.32124pt x 572.1375pt>
 File: ener.png Graphic file (type png)
  <use ener.png>
-Package pdftex.def Info: ener.png used on input line 301.
+Package pdftex.def Info: ener.png used on input line 331.
 (pdftex.def)             Requested size: 401.50146pt x 369.7199pt.
 
 
@@ -1431,68 +1458,86 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10]
+[11]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11 <C:/Users/yuhui/Desktop/代码和论文/论文模板/ener.png>]
-<AZ.png, id=242, 546.04pt x 399.4925pt>
+[12 <C:/Users/yuhui/Desktop/代码和论文/论文模板/ener.png>]
+<AZ.png, id=257, 546.04pt x 399.4925pt>
 File: AZ.png Graphic file (type png)
  <use AZ.png>
-Package pdftex.def Info: AZ.png used on input line 319.
-(pdftex.def)             Requested size: 327.62653pt x 239.69734pt.
+Package pdftex.def Info: AZ.png used on input line 353.
+(pdftex.def)             Requested size: 203.55179pt x 148.91933pt.
 
-<AZ1.jpg, id=243, 683.55376pt x 342.27875pt>
+<AZ1.jpg, id=258, 683.55376pt x 342.27875pt>
 File: AZ1.jpg Graphic file (type jpg)
  <use AZ1.jpg>
-Package pdftex.def Info: AZ1.jpg used on input line 325.
-(pdftex.def)             Requested size: 410.13542pt x 205.36882pt.
+Package pdftex.def Info: AZ1.jpg used on input line 358.
+(pdftex.def)             Requested size: 228.99335pt x 114.66539pt.
 
-<CA.png, id=244, 525.965pt x 374.39874pt>
+Overfull \hbox (87.09726pt too wide) in paragraph at lines 351--361
+[]$[]$ $[]$ 
+ []
+
+<CA.png, id=259, 525.965pt x 374.39874pt>
 File: CA.png Graphic file (type png)
  <use CA.png>
-Package pdftex.def Info: CA.png used on input line 332.
-(pdftex.def)             Requested size: 315.58142pt x 224.64098pt.
+Package pdftex.def Info: CA.png used on input line 380.
+(pdftex.def)             Requested size: 203.55179pt x 144.8952pt.
 
-<CA1.jpg, id=245, 683.55376pt x 338.26375pt>
+<CA1.jpg, id=260, 683.55376pt x 338.26375pt>
 File: CA1.jpg Graphic file (type jpg)
  <use CA1.jpg>
-Package pdftex.def Info: CA1.jpg used on input line 337.
-(pdftex.def)             Requested size: 410.13542pt x 202.95981pt.
+Package pdftex.def Info: CA1.jpg used on input line 385.
+(pdftex.def)             Requested size: 228.99335pt x 113.32034pt.
 
-<NM.png, id=246, 556.0775pt x 380.42125pt>
+Overfull \hbox (87.09726pt too wide) in paragraph at lines 378--388
+[]$[]$ $[]$ 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<NM.png, id=261, 556.0775pt x 380.42125pt>
 File: NM.png Graphic file (type png)
  <use NM.png>
-Package pdftex.def Info: NM.png used on input line 344.
-(pdftex.def)             Requested size: 333.64908pt x 228.2545pt.
+Package pdftex.def Info: NM.png used on input line 398.
+(pdftex.def)             Requested size: 203.55179pt x 139.25603pt.
 
-<NM1.jpg, id=247, 683.55376pt x 338.26375pt>
+<NM1.jpg, id=262, 683.55376pt x 338.26375pt>
 File: NM1.jpg Graphic file (type jpg)
  <use NM1.jpg>
-Package pdftex.def Info: NM1.jpg used on input line 349.
-(pdftex.def)             Requested size: 410.13542pt x 202.95981pt.
+Package pdftex.def Info: NM1.jpg used on input line 403.
+(pdftex.def)             Requested size: 228.99335pt x 113.32034pt.
+
+Overfull \hbox (87.09726pt too wide) in paragraph at lines 396--406
+[]$[]$ $[]$ 
+ []
 
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[12 <C:/Users/yuhui/Desktop/代码和论文/论文模板/AZ.png>]
-<TX.png, id=261, 602.25pt x 375.4025pt>
+<TX.png, id=263, 602.25pt x 375.4025pt>
 File: TX.png Graphic file (type png)
  <use TX.png>
-Package pdftex.def Info: TX.png used on input line 357.
-(pdftex.def)             Requested size: 361.35278pt x 225.24323pt.
+Package pdftex.def Info: TX.png used on input line 419.
+(pdftex.def)             Requested size: 203.55179pt x 126.87904pt.
 
-<TX1.jpg, id=262, 683.55376pt x 338.26375pt>
+<TX1.jpg, id=264, 683.55376pt x 338.26375pt>
 File: TX1.jpg Graphic file (type jpg)
  <use TX1.jpg>
-Package pdftex.def Info: TX1.jpg used on input line 364.
-(pdftex.def)             Requested size: 410.13542pt x 202.95981pt.
+Package pdftex.def Info: TX1.jpg used on input line 424.
+(pdftex.def)             Requested size: 228.99335pt x 113.32034pt.
+
+Overfull \hbox (87.09726pt too wide) in paragraph at lines 417--427
+[]$[]$ $[]$ 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1500,17 +1545,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13 <C:/Users/yuhui/Desktop/代码和论文/论文模板/AZ1.jpg> <C:/Users/yuh
-ui/Desktop/代码和论文/论文模板/CA.png>]
+[13 <C:/Users/yuhui/Desktop/代码和论文/论文模板/AZ.png> <C:/Users/yuhu
+i/Desktop/代码和论文/论文模板/AZ1.jpg>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14 <C:/Users/yuhui/Desktop/代码和论文/论文模板/CA1.jpg> <C:/Users/yuh
-ui/Desktop/代码和论文/论文模板/NM.png>]
-Overfull \hbox (108.03111pt too wide) in paragraph at lines 412--425
+[14 <C:/Users/yuhui/Desktop/代码和论文/论文模板/CA.png> <C:/Users/yuhu
+i/Desktop/代码和论文/论文模板/CA1.jpg> <C:/Users/yuhui/Desktop/代码�
+��论文/论文模板/NM.png> <C:/Users/yuhui/Desktop/代码和论文/论文模
+板/NM1.jpg>]
+Overfull \hbox (108.03111pt too wide) in paragraph at lines 473--486
 [][] 
  []
 
@@ -1520,86 +1567,58 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15 <C:/Users/yuhui/Desktop/代码和论文/论文模板/NM1.jpg> <C:/Users/yuh
-ui/Desktop/代码和论文/论文模板/TX.png>]
+[15 <C:/Users/yuhui/Desktop/代码和论文/论文模板/TX.png> <C:/Users/yuhu
+i/Desktop/代码和论文/论文模板/TX1.jpg>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16 <C:/Users/yuhui/Desktop/代码和论文/论文模板/TX1.jpg>]
+[16]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[18]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[19]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[20] <estimate.jpg, id=325, 2168.1pt x 1276.77pt>
+[17] <estimate.jpg, id=315, 2168.1pt x 1276.77pt>
 File: estimate.jpg Graphic file (type jpg)
  <use estimate.jpg>
-Package pdftex.def Info: estimate.jpg used on input line 549.
+Package pdftex.def Info: estimate.jpg used on input line 576.
 (pdftex.def)             Requested size: 451.68915pt x 265.9866pt.
 
-Overfull \hbox (27.62881pt too wide) in paragraph at lines 549--550
+Overfull \hbox (27.62881pt too wide) in paragraph at lines 576--577
  [][] 
  []
 
-<Y1.jpg, id=326, 2168.1pt x 1276.77pt>
+<Y1.jpg, id=316, 2168.1pt x 1276.77pt>
 File: Y1.jpg Graphic file (type jpg)
  <use Y1.jpg>
-Package pdftex.def Info: Y1.jpg used on input line 559.
+Package pdftex.def Info: Y1.jpg used on input line 586.
 (pdftex.def)             Requested size: 451.68915pt x 265.9866pt.
 
-Overfull \hbox (27.62881pt too wide) in paragraph at lines 559--560
+Overfull \hbox (27.62881pt too wide) in paragraph at lines 586--587
  [][] 
  []
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[21 <C:/Users/yuhui/Desktop/代码和论文/论文模板/estimate.jpg>]
-<Y2.jpg, id=334, 2168.1pt x 1276.77pt>
+<Y2.jpg, id=317, 2168.1pt x 1276.77pt>
 File: Y2.jpg Graphic file (type jpg)
  <use Y2.jpg>
-Package pdftex.def Info: Y2.jpg used on input line 565.
+Package pdftex.def Info: Y2.jpg used on input line 592.
 (pdftex.def)             Requested size: 451.68915pt x 265.9866pt.
 
-Overfull \hbox (27.62881pt too wide) in paragraph at lines 565--566
+Overfull \hbox (27.62881pt too wide) in paragraph at lines 592--593
  [][] 
  []
 
-<Y3.jpg, id=335, 2168.1pt x 1276.77pt>
+<Y3.jpg, id=318, 2168.1pt x 1276.77pt>
 File: Y3.jpg Graphic file (type jpg)
  <use Y3.jpg>
-Package pdftex.def Info: Y3.jpg used on input line 571.
+Package pdftex.def Info: Y3.jpg used on input line 598.
 (pdftex.def)             Requested size: 451.68915pt x 265.9866pt.
 
-Overfull \hbox (27.62881pt too wide) in paragraph at lines 571--572
+Overfull \hbox (27.62881pt too wide) in paragraph at lines 598--599
  [][] 
  []
 
@@ -1609,49 +1628,24 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22 <C:/Users/yuhui/Desktop/代码和论文/论文模板/Y1.jpg>]
+[18 <C:/Users/yuhui/Desktop/代码和论文/论文模板/estimate.jpg>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[23 <C:/Users/yuhui/Desktop/代码和论文/论文模板/Y2.jpg> <C:/Users/yuhu
-i/Desktop/代码和论文/论文模板/Y3.jpg>]
-Package epstopdf Info: Source file: <./figures/mcmthesis-aaa.eps>
-(epstopdf)                    date: 2016-01-29 20:25:52
-(epstopdf)                    size: 458067 bytes
-(epstopdf)             Output file: <./figures/mcmthesis-aaa-eps-converted-to.p
-df>
-(epstopdf)                    date: 2016-01-29 20:30:47
-(epstopdf)                    size: 78739 bytes
-(epstopdf)             Command: <epstopdf --outfile=./figures/mcmthesis-aaa-eps
--converted-to.pdf ./figures/mcmthesis-aaa.eps>
-(epstopdf)             \includegraphics on input line 580.
-Package epstopdf Info: Output file is already uptodate.
+[19 <C:/Users/yuhui/Desktop/代码和论文/论文模板/Y1.jpg> <C:/Users/yuhu
+i/Desktop/代码和论文/论文模板/Y2.jpg>]
 
-<./figures/mcmthesis-aaa-eps-converted-to.pdf, id=349, 421.575pt x 317.185pt>
-File: ./figures/mcmthesis-aaa-eps-converted-to.pdf Graphic file (type pdf)
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-<use ./figures/mcmthesis-aaa-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/mcmthesis-aaa-eps-converted-to.pdf used on i
-nput line 580.
-(pdftex.def)             Requested size: 341.43306pt x 256.89423pt.
+[20 <C:/Users/yuhui/Desktop/代码和论文/论文模板/Y3.jpg>]
 
-<./figures/0.jpg, id=351, 258.9675pt x 258.9675pt>
-File: ./figures/0.jpg Graphic file (type jpg)
- <use ./figures/0.jpg>
-Package pdftex.def Info: ./figures/0.jpg used on input line 590.
-(pdftex.def)             Requested size: 169.62477pt x 169.63086pt.
-File: ./figures/0.jpg Graphic file (type jpg)
-
-<use ./figures/0.jpg>
-Package pdftex.def Info: ./figures/0.jpg used on input line 595.
-(pdftex.def)             Requested size: 169.62477pt x 169.63086pt.
-
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 588--598
-[]$[]$ $[]$ 
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1659,24 +1653,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[24 <C:/Users/yuhui/Desktop/代码和论文/论文模板/figures/mcmthesis-aaa-
-eps-converted-to.pdf> <C:/Users/yuhui/Desktop/代码和论文/论文模板/figu
-res/0.jpg>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[25]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[26]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 750.
+[21]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 745.
  (C:\CTEX\MiKTeX\tex\latex\psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
@@ -1686,7 +1664,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[27]
+[22]
 (C:\Users\yuhui\Desktop\代码和论文\论文模板\code\mcmthesis-matlab1.m
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10> not available
 (Font)              Font shape `T1/pcr/b/n' tried instead on input line 1.
@@ -1707,60 +1685,49 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[28])
+[23])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[29] 
+[24] 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 771.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 771.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 766.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 766.
 (C:\Users\yuhui\Desktop\代码和论文\论文模板\mcmthesis-demo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 771.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 771.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 766.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 766.
 Package rerunfilecheck Info: File `mcmthesis-demo.out' has not changed.
-(rerunfilecheck)             Checksum: C816923DAFF7EDB809C9A97E41179216;1826.
+(rerunfilecheck)             Checksum: 49A3D148607C59A8AFAD7CA9DF381EC9;1990.
  ) 
 Here is how much of TeX's memory you used:
- 18535 strings out of 495354
- 268992 string characters out of 3183860
- 429873 words of memory out of 3000000
- 20962 multiletter control sequences out of 15000+200000
- 51046 words of font info for 130 fonts, out of 3000000 for 9000
+ 18404 strings out of 495354
+ 267385 string characters out of 3183860
+ 428829 words of memory out of 3000000
+ 20908 multiletter control sequences out of 15000+200000
+ 41613 words of font info for 98 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 47i,13n,100p,890b,2889s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,13n,100p,890b,2821s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/CTEX/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C:/WINDOWS/Fonts/simsun.ttc>
 <C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/sim
 sun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/F
 onts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/W
-INDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.t
-tc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/
-simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOW
-S/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C
-:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsu
-n.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fon
-ts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WIN
-DOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc
-><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/si
-msun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/
-Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/
-WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.
-ttc><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/CTEX/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmmi12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmmi8.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
-/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/CTEX/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmsy6.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/CTEX/MiK
-TeX/fonts/type1/urw/courier/ucrb8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/courier/
-ucrr8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/CTEX/MiKTeX/
-fonts/type1/urw/helvetic/uhvr8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/palatino/up
-lb8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on mcmthesis-demo.pdf (30 pages, 1471565 bytes).
+INDOWS/Fonts/simsun.ttc><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.p
+fb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/CTEX/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/CT
+EX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmsy6.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+sy8.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/courier/ucrb8a.pfb><C:/CTEX/MiKTeX/font
+s/type1/urw/courier/ucrr8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.
+pfb><C:/CTEX/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/CTEX/MiKTeX/fonts/t
+ype1/urw/palatino/uplb8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/palatino/uplr8a.pf
+b>
+Output written on mcmthesis-demo.pdf (25 pages, 1199065 bytes).
 PDF statistics:
- 741 PDF objects out of 1000 (max. 8388607)
- 169 named destinations out of 1000 (max. 500000)
- 460 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 547 PDF objects out of 1000 (max. 8388607)
+ 162 named destinations out of 1000 (max. 500000)
+ 330 words of extra memory for PDF output out of 10000 (max. 10000000)
 

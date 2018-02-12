@@ -40,6 +40,8 @@
 
 \usepackage[UTF8, nocap]{ctex} %如果想使用中文输入的话，可以增加该宏包
 \usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{subfigure}
 
 \title{We Will Get O Prize(Not U Prize)}
 %\author{\small \href{http://www.latexstudio.net/}
@@ -260,7 +262,7 @@ hello; world
                \centering
                $$ { v }_{ j }^{ - }=\{ min({ v }_{ ij }),if\quad j\in J_+;max({ v }_{ ij }),if\quad j\in J_-\}   $$
              \end{table}
-             
+
           \item \textbf{Calculate the separation measures for each alternative}
          The separation from the positive ideal alternative is shown as formula(17):
             \begin{table}[!hbpt]
@@ -272,7 +274,7 @@ hello; world
                \centering
                $$ { S }_{ i }^{ - }=\sqrt { \sum _{ j\quad =1 }^{ k }{ { ({ v }_{ ij }-{ v }_{ j }^{ - }) }^{ 2 } }  } ,i = 1,2,..n $$
              \end{table}
-          
+
           \item \textbf{Calculate the relative closeness to the ideal profile}
          Calculate the similarity to the worst condition as formula(19):
             \begin{table}[!hbpt]
@@ -283,14 +285,42 @@ hello; world
          if $$ C_{i}=1 $$,the alternative sample has the best condition; and
          if $$ C_{i}=0 $$,the alternative sample has the worst condition.
 
-          
+
           \item \textbf{Rank the preference order}
         Rank the alternatives using $C_i$ index value in decreasing order. An alternative with largest index value ($C_i$) has shortest distance from positive ideal profile and farthest distance from negative ideal profile.
 
         \end{enumerate}
+        
+        \subsubsection{Autoregressive Integrated Moving Average Model}
+        $$y_{t}=\varphi_{1}y_{t-1}+\varphi_{2}y_{t-2}+...\varphi_{p}y_{t-p}+u_{t}$$
+        \textbf{Predictive model establishment process:}
+        \begin{enumerate}
+          \item Obtain and pretreate the data:
 
+           Do run-length test to determine whether the sequence is a smooth sequence. if it is a non-stationary sequence, using the difference method to make it smooth: $y_{t-i}^{'}$ = $y_{t}$ - $y_{t-1}$, The sequence is preprocessed. After each difference, the data is run-tested until the difference data can pass the stationarity test and recorded as d-difference to obtain a new stationary sequence: $y_{1}^{'}$, $y_{2}^{'}$, $y_{3}^{'}$.
+
+          \item ARMA model recognition:
+
+          Model recognition was performed by calculating the(ACF)$\hat{\rho_{k}}$and pre-processed (PACF)$\hat{\varphi_{kk}}$ of the preconditioned sequence $y_{t}^{'}$.
+
+          $$\hat{\rho_{k}} = \frac{\sum_{t=1}^{N-k}y_{t+k}^{'}y_{t}^{'}}{N}$$
+
+          $$\hat{\varphi}_{11} = \hat{\rho_{1}}$$
+          $$\hat{\varphi}_{k+1,k-1} = (\hat{\rho}_{k+1}-\sum_{j=1}^{k}\hat{\rho}_{k+1-j}\hat{\varphi}_{kj})(1-\sum_{j=1}^{k}\hat{\rho}_{j}\hat{\varphi}_{kj})^{-1}$$
+          $$\hat{\varphi}_{k+1,j} = \hat{\varphi}_{jk} - \hat{\varphi}_{k+1,k+1}\hat{\varphi}_{k,k+1-j},j = 1, 2, ......, k $$
+
+          \item Parameter Estimation and Model Ordering. ARIMA model parameter identification using Marquardt nonlinear least squares method.
+
+          \item Model test:
+          First, we must test whether the model can satisfy the stability and reversibility. If the model is chosen properly, the residual sequence should be a white noise sequence.We can get a reliability prediction model.
+
+          $$y_{t}^{'}=\hat{\varphi_{1}}y_{t-1}^{'}+\hat{\varphi_{2}}y_{t-2}^{'}+...\hat{\varphi_{p}}y_{t-p}^{'}+u_{t}$$
+
+
+        \end{enumerate}
 \section{Model Implementation and Results}
-        \subsection{Energy Profile}
+    \subsection{Principal Component Analysis Theory}
+        \subsubsection{Energy Profile}
 
         \begin{enumerate}
           \item \textbf{Data extraction}
@@ -314,56 +344,87 @@ hello; world
           \item \textbf{Energy profile of each state}
 
           \item Arizona:
-        \begin{figure}
-            \centering
-            \includegraphics[scale=0.6]{AZ.png}
-            \caption{Energy profile of Arizona}
-        \end{figure}
-
-        \begin{figure}[ht]
-         \centering
-         \includegraphics[scale=0.6]{AZ1.jpg}
-         \caption{Energy proportion of Arizona}
-        \end{figure}
+          
+          
+          
+          \begin{figure}[h]
+          \begin{minipage}[h]{0.6\linewidth}
+          \centering
+          \includegraphics[width=0.8\textwidth]{AZ.png}
+          \caption{Figure example 2}
+          \end{minipage}
+          \begin{minipage}[h]{0.6\linewidth}
+          \centering
+          \includegraphics[width=0.9\textwidth]{AZ1.jpg}
+          \caption{Figure example 3}
+          \end{minipage}
+          \end{figure}
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        
      Arizona has few energy production and energy consumption, but it does have abundant Nuclear and hydroenergy potential. The state’s production utilization efficiency is low but with higher additional costs.
     \item California:
-    \begin{figure}[ht]
-    \centering
-    \includegraphics[scale=0.6]{CA.png}
-    \caption{Energy profile of California}
-    \end{figure}
-    \begin{figure}[ht]
-    \centering
-    \includegraphics[scale=0.6]{CA1.jpg}
-    \caption{Energy proportion of California}
-    \end{figure}
+    
+    \begin{figure}[h]
+          \begin{minipage}[h]{0.6\linewidth}
+          \centering
+          \includegraphics[width=0.8\textwidth]{CA.png}
+          \caption{Figure example 2}
+          \end{minipage}
+          \begin{minipage}[h]{0.6\linewidth}
+          \centering
+          \includegraphics[width=0.9\textwidth]{CA1.jpg}
+          \caption{Figure example 3}
+          \end{minipage}
+          \end{figure}
+    
+    
+
      California’s total energy supply and demand is high, and all indictors are basically in a state of balance. California is also rich in energy resources. The state has an abundant supply of cleaner, renewable energy, including nuclear, Geothermal, wind etc.
     \item New Mexico:
-    \begin{figure}[ht]
-    \centering
-    \includegraphics[scale=0.6]{NM.png}
-    \caption{Energy profile of New Mexico}
-    \end{figure}
-    \begin{figure}[ht]
-    \centering
-    \includegraphics[scale=0.6]{NM1.jpg}
-    \caption{Energy proportion of New Mexico}
-    \end{figure}
+    
+    \begin{figure}[h]
+          \begin{minipage}[h]{0.6\linewidth}
+          \centering
+          \includegraphics[width=0.8\textwidth]{NM.png}
+          \caption{Figure example 2}
+          \end{minipage}
+          \begin{minipage}[h]{0.6\linewidth}
+          \centering
+          \includegraphics[width=0.9\textwidth]{NM1.jpg}
+          \caption{Figure example 3}
+          \end{minipage}
+          \end{figure}
+    
+    
+    
+    
+
      Though New Mexico uses fossil fuels to supply energy demand, it still does well in environment protection. Besides that, the state contains a wealth of fossil fuel and has abundant energy potential.
     \item Texas:
 
-    \begin{figure}
-      \centering
-      \includegraphics[scale=0.6]{TX.png}
-      \caption{Energy profile of Texas}
-    \end{figure}
 
-
-    \begin{figure}
-      \centering
-      \includegraphics[scale=0.6]{TX1.jpg}
-      \caption{Energy proportion of Texas}
-    \end{figure}
+\begin{figure}[h]
+          \begin{minipage}[h]{0.6\linewidth}
+          \centering
+          \includegraphics[width=0.8\textwidth]{TX.png}
+          \caption{Figure example 2}
+          \end{minipage}
+          \begin{minipage}[h]{0.6\linewidth}
+          \centering
+          \includegraphics[width=0.9\textwidth]{TX1.jpg}
+          \caption{Figure example 3}
+          \end{minipage}
+          \end{figure}
 
 
      Texas has highest energy production, consumption and production utilization efficiency. And Texas is a large state with a wealth of energy resources. However, high environment damage and negative prospect of C-R energy development is considerable.
@@ -371,7 +432,7 @@ hello; world
            \end{enumerate}
 
 
-        \subsection{Evolution model}
+        \subsubsection{Evolution model}
         \begin{enumerate}
           \item \textbf{Determine the linear equation of principal components}
         Firstly, we extract principal components from 10 indicators. We use the average of last 5 years as a training set to determine the linear combination equations between principal components and evaluation index system.
@@ -445,12 +506,6 @@ hello; world
 
         The linear combination equations between principal components and evaluation index system are shown as formulas.
 
-          \begin{table}[!hbpt]
-               \centering
-               $${ y }_{ 1 }={ \begin{bmatrix} -0.1372 \\ 0.1066 \\ 0.1069 \\ 0.4970 \\ -0.2475 \\ 0.0866 \\ 0.0724 \\ -0.4721 \\ 0.2208 \\ 0.6065 \end{bmatrix} }^{ T }\begin{bmatrix} x_{ 1 } \\ x_{ 2 } \\ x_{ 3 } \\ x_{ 4 } \\ x_{ 5 } \\ x_{ 6 } \\ x_{ 7 } \\ x_{ 8 } \\ x_{ 9 } \\ x_{ 10 } \end{bmatrix}$$
-              $${ y }_{ 2 }={ \begin{bmatrix} -0.3741 \\ -0.4014 \\ 0.0610 \\ -0.4187 \\ -0.5216 \\ -0.4082 \\ -0.1901 \\ -0.2053 \\ 0.0112 \\ 0.0538 \end{bmatrix} }^{ T }\begin{bmatrix} x_{ 1 } \\ x_{ 2 } \\ x_{ 3 } \\ x_{ 4 } \\ x_{ 5 } \\ x_{ 6 } \\ x_{ 7 } \\ x_{ 8 } \\ x_{ 9 } \\ x_{ 10 } \end{bmatrix}$$
-          $${ y }_{ 3 }={ \begin{bmatrix} 0.2932 \\ -0.2733 \\ -0.4058 \\ -0.2024 \\ 0.0773 \\ -0.2683 \\0.3832 \\ 0.3460 \\ 0.4033 \\ 0.3557 \end{bmatrix} }^{ T }\begin{bmatrix} x_{ 1 } \\ x_{ 2 } \\ x_{ 3 } \\ x_{ 4 } \\ x_{ 5 } \\ x_{ 6 } \\ x_{ 7 } \\ x_{ 8 } \\ x_{ 9 } \\ x_{ 10 } \end{bmatrix}$$
-             \end{table}
             It can be seen from the above expressions that the variance contribution rate of the principal , component y3 is 59.513$\%$. Total energy consumption, fossil energy environment cost and renewable energy consumption ratio and other five indices accounted for a larger proportion in the main component y3, so the main component y3 mainly reflects \textbf{the cost for energy}.
 
             The variance contribution rate of principal component y2 is 34.019$\%$.  Total energy consumed per dollar of real GDP, total energy consumption per capita and total energy consumed per dollar of real GDP in the main component of y2 is relatively large, so the main component of y2 mainly reflects \textbf{the degree for renewable energy exploit}.
@@ -458,7 +513,7 @@ hello; world
             The variance contribution rate of principal component y1 is 6.468$\%$, which mainly reflects \textbf{the tendency of the renewable energy use}.
         \end{enumerate}
 
-\subsection{"best" profile}
+        \subsubsection{"best" profile}
 
        Our goal is to determine the "best" profile of C-R energy use.From PCA analysis, we can conclude that $y_{1}$, $y_{2}$ associated with the criteria having a positive impact, and $y_{3}$associated with the criteria having a negative  impact.
       TOPSIS method is applied to rank the four sates in usage of C-R energy. The priority weights of states with respect to criteria, calculated by PCA can be used in TOPSIS. The weighted normalized decision matrix can be seen from table.
@@ -503,42 +558,14 @@ hello; world
 
       The "best" profile for use of C-R energy  belongs to New Mexico.
 
-
-
-        \subsubsection{Autoregressive Integrated Moving Average Model}
         The basic idea of this ARIMA model is to assume that the time series under study is a non-stationary time series generated by a random process. The non-stationary time series is treated several times to make it a stationary time series. Then the time series observations Value to establish the autoregressive moving average model of the stochastic process, using the optimal model established to predict.ARIMA model has 3 parameters. It is usually recorded as ARIMA(p,d,q). ARIMA is one of ARMA's expansion.
         ARMA's general expression is as followed:
-        $$y_{t}=\varphi_{1}y_{t-1}+\varphi_{2}y_{t-2}+...\varphi_{p}y_{t-p}+u_{t}$$
-        \textbf{Predictive model establishment process:}
-        \begin{enumerate}
-          \item Obtain and pretreate the data:
-
-           Do run-length test to determine whether the sequence is a smooth sequence. if it is a non-stationary sequence, using the difference method to make it smooth: $y_{t-i}^{'}$ = $y_{t}$ - $y_{t-1}$, The sequence is preprocessed. After each difference, the data is run-tested until the difference data can pass the stationarity test and recorded as d-difference to obtain a new stationary sequence: $y_{1}^{'}$, $y_{2}^{'}$, $y_{3}^{'}$.
-
-          \item ARMA model recognition:
-
-          Model recognition was performed by calculating the(ACF)$\hat{\rho_{k}}$and pre-processed (PACF)$\hat{\varphi_{kk}}$ of the preconditioned sequence $y_{t}^{'}$.
-
-          $$\hat{\rho_{k}} = \frac{\sum_{t=1}^{N-k}y_{t+k}^{'}y_{t}^{'}}{N}$$
-
-          $$\hat{\varphi}_{11} = \hat{\rho_{1}}$$
-          $$\hat{\varphi}_{k+1,k-1} = (\hat{\rho}_{k+1}-\sum_{j=1}^{k}\hat{\rho}_{k+1-j}\hat{\varphi}_{kj})(1-\sum_{j=1}^{k}\hat{\rho}_{j}\hat{\varphi}_{kj})^{-1}$$
-          $$\hat{\varphi}_{k+1,j} = \hat{\varphi}_{jk} - \hat{\varphi}_{k+1,k+1}\hat{\varphi}_{k,k+1-j},j = 1, 2, ......, k $$
-
-          \item Parameter Estimation and Model Ordering. ARIMA model parameter identification using Marquardt nonlinear least squares method.
-
-          \item Model test:
-          First, we must test whether the model can satisfy the stability and reversibility. If the model is chosen properly, the residual sequence should be a white noise sequence.We can get a reliability prediction model.
-
-          $$y_{t}^{'}=\hat{\varphi_{1}}y_{t-1}^{'}+\hat{\varphi_{2}}y_{t-2}^{'}+...\hat{\varphi_{p}}y_{t-p}^{'}+u_{t}$$
+        
 
 
-        \end{enumerate}
+    \subsection{Autoregressive Integrated Moving Average Model}
 
-
-\section{Model Implementation and Results}
-
-    \subsection{Estimate}
+    \subsubsection{Estimate}
 
         In order to determine whether our model can predict the change correctly, we selected the known 33 sets of data, of which 23 are for training and the remaining 10 are for testing.
 
@@ -550,7 +577,7 @@ hello; world
             \caption{Estimate}
         \end{figure}
 
-    \subsection{Results}
+    \subsubsection{Results}
 
         The model predicts future results as shown below.
 
@@ -574,28 +601,7 @@ hello; world
 
 
 \section{Our suggestions to the governor}
-\begin{figure}[h]
-%\small
-\centering
-\includegraphics[width=12cm]{mcmthesis-aaa.eps}
-\caption{Figure example 1} \label{fig:aa}
-\end{figure}
 
-
-Figure \ref{aa}.
-
-\begin{figure}[h]
-\begin{minipage}[h]{0.5\linewidth}
-\centering
-\includegraphics[width=0.8\textwidth]{0.jpg}
-\caption{Figure example 2}
-\end{minipage}
-\begin{minipage}[h]{0.5\linewidth}
-\centering
-\includegraphics[width=0.8\textwidth]{0.jpg}
-\caption{Figure example 3}
-\end{minipage}
-\end{figure}
 
 
 
@@ -633,17 +639,6 @@ a^2 \label{aa}
     \subsection{Sensitivity Analysis}
     \subsection{Strength and weakness}
 
-$\mathop{A}_{ij}$ and $A_{ij}$ 不一样
-
-$\left(123 \right)$ and $（123）$ and （123） 不一样
-
-
-
-
-CTEX中最繁琐的是表格输入,不过数学建模竞赛中，一般要求输入三线表，这样统一格式的情况下，对于输入表格就简单一点了。\\
-\\
-双斜杠是强制换行，在矩阵，表格，大括号的公式常用。\\
-关于表格的合并，见下一部分。给出的例子。
 \begin{center}
 \begin{tabular}{c|cclcrcc}
 \hline

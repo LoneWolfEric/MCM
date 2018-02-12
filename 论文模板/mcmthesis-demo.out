@@ -9,19 +9,20 @@
 \BOOKMARK [2][-]{subsection.3.2}{Model Theory}{section.3}% 9
 \BOOKMARK [3][-]{subsubsection.3.2.1}{Principal Component Analysis Theory}{subsection.3.2}% 10
 \BOOKMARK [3][-]{subsubsection.3.2.2}{Technique for Order Preference by Similarity to Ideal Solution}{subsection.3.2}% 11
-\BOOKMARK [1][-]{section.4}{Model Implementation and Results}{}% 12
-\BOOKMARK [2][-]{subsection.4.1}{Energy Profile}{section.4}% 13
-\BOOKMARK [2][-]{subsection.4.2}{Evolution model}{section.4}% 14
-\BOOKMARK [2][-]{subsection.4.3}{"best" profile}{section.4}% 15
-\BOOKMARK [3][-]{subsubsection.4.3.1}{Autoregressive Integrated Moving Average Model}{subsection.4.3}% 16
-\BOOKMARK [1][-]{section.5}{Model Implementation and Results}{}% 17
-\BOOKMARK [2][-]{subsection.5.1}{Estimate}{section.5}% 18
-\BOOKMARK [2][-]{subsection.5.2}{Results}{section.5}% 19
-\BOOKMARK [1][-]{section.6}{Our suggestions to the governor}{}% 20
-\BOOKMARK [1][-]{section.7}{Model analysis}{}% 21
-\BOOKMARK [2][-]{subsection.7.1}{Sensitivity Analysis}{section.7}% 22
-\BOOKMARK [2][-]{subsection.7.2}{Strength and weakness}{section.7}% 23
-\BOOKMARK [1][-]{section.8}{Conclusions}{}% 24
-\BOOKMARK [1][-]{section*.2}{Appendices}{}% 25
-\BOOKMARK [1][-]{Appendix.a.A}{Appendix First appendix}{}% 26
-\BOOKMARK [1][-]{Appendix.a.B}{Appendix Second appendix}{}% 27
+\BOOKMARK [3][-]{subsubsection.3.2.3}{Autoregressive Integrated Moving Average Model}{subsection.3.2}% 12
+\BOOKMARK [1][-]{section.4}{Model Implementation and Results}{}% 13
+\BOOKMARK [2][-]{subsection.4.1}{Principal Component Analysis Theory}{section.4}% 14
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Energy Profile}{subsection.4.1}% 15
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Evolution model}{subsection.4.1}% 16
+\BOOKMARK [3][-]{subsubsection.4.1.3}{"best" profile}{subsection.4.1}% 17
+\BOOKMARK [2][-]{subsection.4.2}{Autoregressive Integrated Moving Average Model}{section.4}% 18
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Estimate}{subsection.4.2}% 19
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Results}{subsection.4.2}% 20
+\BOOKMARK [1][-]{section.5}{Our suggestions to the governor}{}% 21
+\BOOKMARK [1][-]{section.6}{Model analysis}{}% 22
+\BOOKMARK [2][-]{subsection.6.1}{Sensitivity Analysis}{section.6}% 23
+\BOOKMARK [2][-]{subsection.6.2}{Strength and weakness}{section.6}% 24
+\BOOKMARK [1][-]{section.7}{Conclusions}{}% 25
+\BOOKMARK [1][-]{section*.2}{Appendices}{}% 26
+\BOOKMARK [1][-]{Appendix.a.A}{Appendix First appendix}{}% 27
+\BOOKMARK [1][-]{Appendix.a.B}{Appendix Second appendix}{}% 28
