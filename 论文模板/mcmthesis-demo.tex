@@ -96,9 +96,7 @@ hello; world
     \subsection{Restatement of the Problem}
     We are required to provide an overview of energy profile for each of the four states and model how these profiles have evolved from 1960 to 2009. In addition, it is necessary to make our results understandable through discussion, including similarities and differences between 4 states. Then we need to establish a criteria model and choose the "best" profile use of cleaner, renewable energy usage targets. Finally, we need to give our suggestions about exact action to achieve the goal we set based on what we predict.
 
-    In order to identify
     In order to determine whether it is clean and renewable energy, for which we check the information and classification of various types of energy.
-
 
     \noindent
     cleaner, renewable energy ( defination from SEDS and ):
@@ -111,9 +109,19 @@ hello; world
     \end{itemize}
 
 \section{Notations and Assumptions}
+    \subsection{Assumptions and Justifications}
+        \noindent
+        We make the following basic assumptions in order to simplify the problem. Each of our assumptions is justified and is consistent with the basic fact.
+        \begin{enumerate}
+            \item \textbf{Ignore the external costs caused by power generation other than coal:}
+
+              In 2005, the mean external damage of coal in the United States due to coal combustion was 3.2 cents/kWh, The external cost of natural gas power generation is 0.16 cents/kwh, which is actually almost entirely caused by coal-fired power. Also life-cycle CO2 emissions from nuclear, wind, biomass, and solar appear so small as to be negligible compared with those from fossil fuels.(information comes from the report "Hidden cost of energy unpriced consequences of energy production and use" )
+            \item \textbf{The conversion between generation and consumption is 100\%, and the consumption is used to represent the amount of power generation to evaluate.}
+            \item \textbf{Economic growth and energy development are stable. We ignore the impact of major external emergencies}
+        \end{enumerate}
     \subsection{Notations}
          \begin{table}[!htbp]
-           %\centering
+            \centering
                 \begin{tabular}{c|l}
                   \hline
                   Symbol & Meaning \\
@@ -147,16 +155,6 @@ hello; world
            \caption{Abbreviation and Description}
          \end{table}
 
-    \subsection{Assumptions and Justifications}
-        \noindent
-        We make the following basic assumptions in order to simplify the problem. Each of our assumptions is justified and is consistent with the basic fact.
-        \begin{enumerate}
-          \item \textbf{Ignore the external costs caused by power generation other than coal:}
-
-              In 2005, the mean external damage of coal in the United States due to coal combustion was 3.2 cents/kWh, The external cost of natural gas power generation is 0.16 cents/kwh, which is actually almost entirely caused by coal-fired power. Also life-cycle CO2 emissions from nuclear, wind, biomass, and solar appear so small as to be negligible compared with those from fossil fuels.(information comes from the report "Hidden cost of energy unpriced consequences of energy production and use" )
-          \item \textbf{The conversion between generation and consumption is 100\%, and the consumption is used to represent the amount of power generation to evaluate.}
-        \end{enumerate}
-
 
 \section{Statement of Our Model}
     \subsection{Model Overview}
@@ -170,21 +168,16 @@ hello; world
         \subsubsection{Principal Component Analysis Theory}
         The purpose of PCA is to use the idea of dimensionality reduction to convert multipleindicators into a few composite indicators. When using statistical methods to study multivariable problems, too many variables will increase the computational complexity and increase the complexity of analyzing the problems. We hope that in the process of quantitative analysis, fewer comprehensive variables are involved to make the results more Intuitive.
 
-        The method can be summarized as follows :
-        
+        The method can be summarized as follows:
+
         \begin{enumerate}
           \item \textbf{Organize the data set and normalization}
-          Supposing that there are n samples, and each sample has P indicators, the original variable data X are arranged as a set of n data vectors with each representing a single grouped observation of the p variables, which as shown in formula(1)
-
-
-
-
-
+          Supposing that there are n samples, and each sample has P indicators, the original variable data X are arranged as a set of n data vectors with each representing a single grouped observation of the p variables, which as shown in formula
               \begin{table}[!hbpt]
                 \centering
                 { X } = $\begin{vmatrix} { x }_{ 1 }^{ T } \\ { x }_{ 2 }^{ T } \\ ... \\ { x }_{ n }^{ T } \end{vmatrix}$ = $\begin{vmatrix} { { x }_{ 11 } } & { x }_{ 12 } & ... & { x }_{ 1p } \\ { x }_{ 21 } & { x }_{ 22 } & ... & { x }_{ 2p } \\ ... & ... & ... & ... \\ { x }_{ n1 } & { x }_{ n2 } & ... & { x }_{ np } \end{vmatrix}$              \end{table}
 
-              We choose zero-mean normalization to standardize the original data matrix.The standard score of a raw score xij is shown as formula(2)
+              We choose zero-mean normalization to standardize the original data matrix.The standard score of a raw score xij is shown as formula
 
              \begin{table}[!hbpt]
                \centering
@@ -196,49 +189,338 @@ hello; world
 
              $\sigma_{j}$ is the standard deviation of the row j.
 
-             Then we get the standardization matrix Z as shown in formula(3).
-
-             \begin{table}[!hbpt]
-               \centering
-               $${ Z }=\begin{vmatrix} { { z }_{ 11 } } & { z }_{ 12 } & ... & { z }_{ 1p } \\ { z }_{ 21 } & { z }_{ 22 } & ... & { z }_{ 2p } \\ ... & ... & ... & ... \\ { z }_{ n1 } & { z }_{ n2 } & ... & { z }_{ np } \end{vmatrix}$$
-             \end{table}
-
 
           \item \textbf{Determine the correlation between the indicators}
               Correlation test is a statistical test of how the variables are related and how relevant they are. Thus, it’s also the basis of principal component analysis. The Kaiser-MeyerOlkin (KMO) test method is used in this model. Correlation coefficient is a statistical indicator of the close relationship between the response variables, whose range of values between 1 to -1.
 
-              The formula(4) for KMO test is :
-              $${ kmo }_{ j }\quad =\quad \frac { \sum _{ i\neq j }^{  }{ { r }_{ ij }^{ 2 } }  }{ \sum _{ i\neq j }^{  }{ { r }_{ ij }^{ 2 } } +\sum _{ i\neq j }^{  }{ { u }_{ ij }^{ 2 } }  }$$
+          \item \textbf{Calculate the number of principal component}
+          The correlation coefficient matrix of standardization matrix is calculated by
+          \begin{table}[!hbpt]
+               \centering
+               $$ C=\frac { { Z }^{ T }Z }{ n-1 }  $$
+          \end{table}
+          Calculate the eigvalue of Z and arrange in descending order.
+          \begin{table}[!hbpt]
+               \centering
+               $$ |Z - \lambda E| = 0  $$
+          \end{table}
+          The cumulative contribution rate of top k factors is shown in formula.
+          \begin{table}[!hbpt]
+               \centering
+               $$ { \alpha  }_{ (k) }=\frac { \sum _{ j\quad = 1 }^{ k }{ { \lambda  }_{ j } }  }{ \sum _{ j\quad =\quad 1 }^{ p }{ { \lambda  }_{ j } }  }   $$
+          \end{table}
+          The goal is to choose a value of k as small as possible while achieving a reasonably high value of ${\alpha}_{k}$ on a percentage basis. Generally, the value of $\alpha_{(k)}$should be more than 80\%.
 
-              where :
+          \item \textbf{Determine the scores of  principal components}
 
-              //R = [$r_{ij}$] is the correlation matrix.
+          The scores of principal components are calculate method is shown as formula.
+               $$ y_m = F_m \times B (m=1,2,...,k)  $$
+        \subsubsection{Technique for Order Preference by Similarity to Ideal Solution}
+          TOPSIS is a method of compensatory aggregation that compares a set of alternatives by identifying weights for each criterion, normalizing scores for each criterion and calculating the geometric distance between each alternative and the ideal alternative, which is the best score in each criterion.
+          The method is carried out as follows :
+        \begin{enumerate}
+          \item \textbf{Organize the data set and normalization}
+          Construct normalized decision matrix. This step transforms various attribute dimensions into non-dimensional attributes, which allows comparisons across criteria.
+          In our model, we use the principal component matrix calculated as formula(10) following.
+            \begin{table}[!hbpt]
+               \centering
+               $$ { Y }=\begin{vmatrix} { y }_{ 1 } \\ { y }_{ 2 } \\ ... \\ { y }_{ n } \end{vmatrix}=\begin{vmatrix} { { y }_{ 11 } } & { y }_{ 12 } & ... & { y }_{ 1k } \\ { y }_{ 21 } & { y }_{ 22 } & ... & { y }_{ 2k } \\ ... & ... & ... & ... \\ { y }_{ n1 } & { y }_{ n2 } & ... & { y }_{ nk } \end{vmatrix} $$
+             \end{table}
+           \item
+           \end{enumerate}
 
-              U = [$u_{ij}$] is the partial covariance matrix.
+        \begin{enumerate}
+          \item \textbf{Calculate the weighted normalized criteria matrix}
+          We  use a set of weights from PCA for each criteria $w_{j}$. Multiply each column of the normalized decision matrix by its associated weight. An element of the new matrix is shown as formula(11)
+            \begin{table}[!hbpt]
+               \centering
+               $$ v_{ij} = w_j y_{ij}, (i = 1,2,...,n; j=1,2,...,k) $$
+             \end{table}
+        where
+            \begin{table}[!hbpt]
+               \centering
+               $$ { w  }_{ j }=\frac { { { \lambda  }_{ j } }  }{ \sum _{ j\quad =\quad 1 }^{ k }{ { \lambda  }_{ j } }  } ,(j =1,2,...,k) $$
+             \end{table}
+            \item
+           \end{enumerate}
 
-              And for reference, Kaiser put the following values on the results :
+        \begin{enumerate}
+          \item \textbf{Determine the ideal and negative ideal profiles}
+          Positive ideal solution is determined as formula(13)
+            \begin{table}[!hbpt]
+               \centering
+               $$ { A }^{ + }=\{ { v }_{ 1 }^{ + },{ v }_{ 2 }^{ + },...,{ v }_{ k }^{ + }\}  $$
+             \end{table}
+        where
+            \begin{table}[!hbpt]
+               \centering
+               $$ { v }_{ j }^{ + }=\{ max({ v }_{ ij }),if\quad j\in J_+;min({ v }_{ ij }),if\quad j\in J_-\}  $$
+             \end{table}
+        Negative ideal solution is determined as formula(15)
+            \begin{table}[!hbpt]
+               \centering
+               $$ { A }^{ - }=\{ { v }_{ 1 }^{ - },{ v }_{ 2 }^{ - },...,{ v }_{ k }^{ - }\}  $$
+             \end{table}
+        where
+            \begin{table}[!hbpt]
+               \centering
+               $$ { v }_{ j }^{ - }=\{ min({ v }_{ ij }),if\quad j\in J_+;max({ v }_{ ij }),if\quad j\in J_-\}   $$
+             \end{table}
+            \item
+           \end{enumerate}
 
-              \begin{table}[!hbpt]
-                \centering
-                \begin{tabular}{l|l}
-                  \hline
-                  value range & result \\
-                  0.00 to 0.49 & unacceptable \\
-                  0.60 to 0.69 & miserable \\
-                  0.70 to 0.79 & mediocre \\
-                  0.80 to 0.89 & meritorious \\
-                  0.90 to 1.00 & marvelous \\
-                  \hline
-                \end{tabular}
-                \caption{KMO reference table}
-              \end{table}
+        \begin{enumerate}
+          \item \textbf{Calculate the separation measures for each alternative}
+         The separation from the positive ideal alternative is shown as formula(17):
+            \begin{table}[!hbpt]
+               \centering
+               $$ { S }_{ i }^{ + }=\sqrt { \sum _{ j\quad =1 }^{ k }{ { ({ v }_{ ij }-{ v }_{ j }^{ + }) }^{ 2 } }  } ,i = 1,2,..n $$
+             \end{table}
+          The separation from the negative ideal alternative is shown as formula(18):
+            \begin{table}[!hbpt]
+               \centering
+               $$ { S }_{ i }^{ - }=\sqrt { \sum _{ j\quad =1 }^{ k }{ { ({ v }_{ ij }-{ v }_{ j }^{ - }) }^{ 2 } }  } ,i = 1,2,..n $$
+             \end{table}
+            \item
+           \end{enumerate}
+
+        \begin{enumerate}
+          \item \textbf{Calculate the relative closeness to the ideal profile}
+         Calculate the similarity to the worst condition as formula(19):
+            \begin{table}[!hbpt]
+               \centering
+               $$ C_{ { i } }=\frac { { S }_{ i }^{ - } }{ { S }_{ i }^{ + }+{ S }_{ i }^{ - } }  $$
+             \end{table}
+         where
+         if $$ C_{i}=1 $$,the alternative sample has the best condition; and
+         if $$ C_{i}=0 $$,the alternative sample has the worst condition.
+
+            \item
+           \end{enumerate}
+
+        \begin{enumerate}
+          \item \textbf{Rank the preference order}
+        Rank the alternatives using $C_i$ index value in decreasing order. An alternative with largest index value ($C_i$) has shortest distance from positive ideal profile and farthest distance from negative ideal profile.
+
+            \item
+           \end{enumerate}
+
+\section{Model Implementation and Results}
+        \subsection{Energy Profile}
+
+        \begin{enumerate}
+          \item \textbf{Data extraction}
+            To evaluate the performance of the energy profile (especially in C-R energy) for each states, we set 5 second grade indices , including energy supply, energy consumption, efficiency, Additional costs and C-R energy development prospects. On the basis of the second grade indicators, we set 10 third grade indices, including the total energy production, C-R energy production, C-R energy consumption ratio, C-R energy increase speed etc. The following table shows the index system for energy profile.
+
+            \begin{figure}
+              \centering
+              \includegraphics[width=400px]{ener.png}
+            \end{figure}
+
+        \item Note：The data comes from State Energy Data System (SEDS) Complete Dataset (All 50 states) （https://catalog.data.gov/dataset/state-energy-data-system-seds-complete-dataset-through- 2009\#sec-dates）
+        \item Energy supply：the energy supply indicators are the most intuitive indicators showing the level of energy production and clean energy development in the region.
+        \item Energy consumption: the energy consumption indicators truly reflect the use of energy in each state. Total energy consumption and total energy consumption per capita show us the demand of energy. C-R energy consumption
+        \item Efficiency of energy utilization: the efficiency indicators describe energy production in technical aspect, which are the key factors that affect the development and utilization of  energy.
+        \item Additional cost: the indicator directly reflect the effect of energy profile evaluation. It is measured mainly by the total amount of pollutants emitted from fossil energy. Compared to traditional fossil fuels, the application of clean energy can greatly reduce pollutant emissions.
+        \item C-R energy development prospects: the prospect is characterized by C-R energy increase rate, the proportion of C-R energy generation to total electricity generation.
+        We extract the average of last 5 years(2005-2009) and use the rank radar chart to indicate the energy profile of each state in each dimension.(exact data is given in the appendix). In addition, considering the purpose of 4 states, we will also analyze main energy usage proportion.
         \end{enumerate}
-        
-        
-        
-        
-       
-              
+
+        \begin{enumerate}
+          \item \textbf{Energy profile of each state}
+
+          \item Arizona:
+        \begin{figure}
+            \centering
+            \includegraphics[scale=0.6]{AZ.png}
+            \caption{Energy profile of Arizona}
+        \end{figure}
+
+        \begin{figure}[ht]
+         \centering
+         \includegraphics[scale=0.6]{AZ1.jpg}
+         \caption{Energy proportion of Arizona}
+        \end{figure}
+     Arizona has few energy production and energy consumption, but it does have abundant Nuclear and hydroenergy potential. The state’s production utilization efficiency is low but with higher additional costs.
+    \item California:
+    \begin{figure}[ht]
+    \centering
+    \includegraphics[scale=0.6]{CA.png}
+    \caption{Energy profile of California}
+    \end{figure}
+    \begin{figure}[ht]
+    \centering
+    \includegraphics[scale=0.6]{CA1.jpg}
+    \caption{Energy proportion of California}
+    \end{figure}
+     California’s total energy supply and demand is high, and all indictors are basically in a state of balance. California is also rich in energy resources. The state has an abundant supply of cleaner, renewable energy, including nuclear, Geothermal, wind etc.
+    \item New Mexico:
+    \begin{figure}[ht]
+    \centering
+    \includegraphics[scale=0.6]{NM.png}
+    \caption{Energy profile of New Mexico}
+    \end{figure}
+    \begin{figure}[ht]
+    \centering
+    \includegraphics[scale=0.6]{NM1.jpg}
+    \caption{Energy proportion of New Mexico}
+    \end{figure}
+     Though New Mexico uses fossil fuels to supply energy demand, it still does well in environment protection. Besides that, the state contains a wealth of fossil fuel and has abundant energy potential.
+    \item Texas:
+
+    \begin{figure}
+      \centering
+      \includegraphics[scale=0.6]{TX.png}
+      \caption{Energy profile of Texas}
+    \end{figure}
+
+
+    \begin{figure}
+      \centering
+      \includegraphics[scale=0.6]{TX1.jpg}
+      \caption{Energy proportion of Texas}
+    \end{figure}
+
+
+     Texas has highest energy production, consumption and production utilization efficiency. And Texas is a large state with a wealth of energy resources. However, high environment damage and negative prospect of C-R energy development is considerable.
+            \item
+           \end{enumerate}
+
+
+        \subsection{Evolution model}
+        \begin{enumerate}
+          \item \textbf{Determine the linear equation of principal components}
+        Firstly, we extract principal components from 10 indicators. We use the average of last 5 years as a training set to determine the linear combination equations between principal components and evaluation index system.
+      The indicators are as following:
+      \begin{table}
+      \begin{tabular}{|c|}
+      \hline
+      {Total energy supply $x_1$}\\
+      \hline
+      {C-R energy production $x_2$}\\
+      \hline
+      {The proportion of C-R energy generation to total electricity generation $x_3$}\\
+      \hline
+      { Average price for non-renewable energy $x_4$}\\
+      \hline
+      { Total energy consumption $x_5$}\\
+      \hline
+      { C-R energy consumption $x_6$}\\
+      \hline
+      { Total energy consumption per capita $x_7$}\\
+      \hline
+      {  Fossil energy environment cost $x_8$}\\
+      \hline
+      { Total energy consumed per dollar of GDP $x_9$}\\
+      \hline
+      {renewable energy increase rate $x_{10}$}\\
+      \hline
+      \end{tabular}
+      \caption{indictors of evaluation system}
+
+      \end{table}
+
+
+
+      Through the standard processing of these data, the relative value of each index is obtained, as shown in table 1.
+
+      \begin{table}
+      \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+      \hline
+      { }&x1&x2&x3&x4&x5&x6&x7&x8&x9&x10\\
+      \hline
+      {AZ}&-0.7767&-0.5675&0.5419&-1.0061&-0.7565&-0.6559&-0.7178&-0.2267&-0.5546&-0.7450\\
+      \hline
+      {CA}&-0.3178&1.4478&1.0651&1.3715&0.5125&1.4381&-0.8089&-0.8225&-1.1043&-0.9622\\
+      \hline
+      {NM}&-0.3737&-0.7518&-0.4292&-0.3243&-0.9112&-0.7760&-0.4032&-0.4032&-0.6093&-1.0293\\
+      \hline
+      {TX}&1.4683&-0.1284&-1.1779&-0.0411&1.1553&-0.0963&1.14524&1.14524&1.0496&0.6780\\
+      \hline
+      \end{tabular}
+      \caption{Standardized results of index data for 4 states}
+      \end{table}
+      Based on the standard data, we use the KOM test, and the value is 0.9145. So these data is very suitable for Principal Component Analysis.The coefficient matrix is shown in Appendix.
+
+      The characteristic values of the correlation coefficient matrix are calculated. According to the calculation results, the last three principal components are listed in Table 3, since the characteristic value of the seventh principal component approaches zero. The characteristic values of principal components and the contribution rate of variance of the index system are shown in Table 3. In this study, the characteristic values of the last three principal components are larger, that is, the last three principal components contribute the most to the explanatory variables. Therefore, the extraction of the Last three principal components is the most appropriate and the cumulative variance contribution rate is 99$\%$, which combines most of the information on the level of clean energy development.
+      \begin{table}
+      \begin{tabular}{|c|c|c|c|}
+      \hline
+      { components }&{Total}&{Variance}&{Cumulative Variance}\\
+      \hline
+      {y1}&0.6468&6.468$\%$&6.468$\%$\\
+      \hline
+      {y2}&3.4019&34.019$\%$ & 40.487$\%$\\
+      \hline
+      {y3}&5.9513&59.913$\%$ & 99.999$\%$\\
+      \hline
+      \end{tabular}
+      \caption{Eigenvalue and contribution rate of variance of the principal components}
+      \end{table}
+        The feature vectors of each principal component are calculated according to the matrix and the characteristic values, as shown in Table 4. Table 4 shows the expression of the three principal components y1, y2, y3.
+
+        The linear combination equations between principal components and evaluation index system are shown as formulas.
+
+          \begin{table}[!hbpt]
+               \centering
+               $${ y }_{ 1 }={ \begin{bmatrix} -0.1372 \\ 0.1066 \\ 0.1069 \\ 0.4970 \\ -0.2475 \\ 0.0866 \\ 0.0724 \\ -0.4721 \\ 0.2208 \\ 0.6065 \end{bmatrix} }^{ T }\begin{bmatrix} x_{ 1 } \\ x_{ 2 } \\ x_{ 3 } \\ x_{ 4 } \\ x_{ 5 } \\ x_{ 6 } \\ x_{ 7 } \\ x_{ 8 } \\ x_{ 9 } \\ x_{ 10 } \end{bmatrix}$$
+              $${ y }_{ 2 }={ \begin{bmatrix} -0.3741 \\ -0.4014 \\ 0.0610 \\ -0.4187 \\ -0.5216 \\ -0.4082 \\ -0.1901 \\ -0.2053 \\ 0.0112 \\ 0.0538 \end{bmatrix} }^{ T }\begin{bmatrix} x_{ 1 } \\ x_{ 2 } \\ x_{ 3 } \\ x_{ 4 } \\ x_{ 5 } \\ x_{ 6 } \\ x_{ 7 } \\ x_{ 8 } \\ x_{ 9 } \\ x_{ 10 } \end{bmatrix}$$
+          $${ y }_{ 3 }={ \begin{bmatrix} 0.2932 \\ -0.2733 \\ -0.4058 \\ -0.2024 \\ 0.0773 \\ -0.2683 \\0.3832 \\ 0.3460 \\ 0.4033 \\ 0.3557 \end{bmatrix} }^{ T }\begin{bmatrix} x_{ 1 } \\ x_{ 2 } \\ x_{ 3 } \\ x_{ 4 } \\ x_{ 5 } \\ x_{ 6 } \\ x_{ 7 } \\ x_{ 8 } \\ x_{ 9 } \\ x_{ 10 } \end{bmatrix}$$
+             \end{table}
+            It can be seen from the above expressions that the variance contribution rate of the principal , component y3 is 59.513$\%$. Total energy consumption, fossil energy environment cost and renewable energy consumption ratio and other five indices accounted for a larger proportion in the main component y3, so the main component y3 mainly reflects \textbf{the cost for energy}.
+
+            The variance contribution rate of principal component y2 is 34.019$\%$.  Total energy consumed per dollar of real GDP, total energy consumption per capita and total energy consumed per dollar of real GDP in the main component of y2 is relatively large, so the main component of y2 mainly reflects \textbf{the degree for renewable energy exploit}.
+
+            The variance contribution rate of principal component y1 is 6.468$\%$, which mainly reflects \textbf{the tendency of the renewable energy use}.
+        \end{enumerate}
+
+\subsection{"best" profile}
+
+       Our goal is to determine the "best" profile of C-R energy use.From PCA analysis, we can conclude that $y_{1}$, $y_{2}$ associated with the criteria having a positive impact, and $y_{3}$associated with the criteria having a negative  impact.
+      TOPSIS method is applied to rank the four sates in usage of C-R energy. The priority weights of states with respect to criteria, calculated by PCA can be used in TOPSIS. The weighted normalized decision matrix can be seen from table.
+
+      \begin{table}
+      \centering
+      \begin{tabular}{cccc}
+      \hline
+      {}&{y1}&{y2}&{y3}\\
+      \hline
+      {AZ}&-0.800&\textbf{1.853}&-1.100\\
+      \hline
+      {CA}&\textbf{1.106}&-1.636&\textbf{-1.736}\\
+      \hline
+      {NM}&0.2707&1.559&0.405\\
+      \hline
+      {TX}&-0.5759&-1.177&2.431\\
+      \hline
+      \end{tabular}
+      \caption{The weighted normalized decision matrix}
+      \end{table}
+
+      Then, using TOPSIS method, the ranking of sates are calculated. Table shows the evaluation results and final ranking of energy profiles for usage of C-R energy.
+
+      \begin{table}
+      \begin{tabular}{ccc}
+      \hline
+      {States}&{$C_i$}&{Ranking}\\
+      \hline
+      {AZ}&0.554&3\\
+      \hline
+      {CA}&0.443&4\\
+      \hline
+      \textbf{NM}&\textbf{0.687}&\textbf{1}\\
+      \hline
+      {TX}&0.597&2\\
+      \hline
+
+      \end{tabular}
+      \caption{The final evaluation and ranking of states}
+      \end{table}
+
+      The "best" profile for use of C-R energy  belongs to New Mexico.
+
+
+
         \subsubsection{Autoregressive Integrated Moving Average Model}
         The basic idea of this ARIMA model is to assume that the time series under study is a non-stationary time series generated by a random process. The non-stationary time series is treated several times to make it a stationary time series. Then the time series observations Value to establish the autoregressive moving average model of the stochastic process, using the optimal model established to predict.ARIMA model has 3 parameters. It is usually recorded as ARIMA(p,d,q). ARIMA is one of ARMA's expansion.
         ARMA's general expression is as followed:
@@ -270,34 +552,41 @@ hello; world
         \end{enumerate}
 
 
-
-
-
-
-
-
 \section{Model Implementation and Results}
 
-    \subsection{Definition}
-    
+    \subsection{Estimate}
+
+        In order to determine whether our model can predict the change correctly, we selected the known 33 sets of data, of which 23 are for training and the remaining 10 are for testing.
+
+        The test results show that, within a certain margin of error, the arima model can well reflect the future trend of things.
+
+        \begin{figure}[!hbpt]
+            \centering
+            \includegraphics[width=450px]{estimate.jpg}
+            \caption{Estimate}
+        \end{figure}
+
+    \subsection{Results}
+
+        The model predicts future results as shown below.
+
         \begin{figure}[!hbpt]
           \centering
-          \includegraphics[width=450px]{estimate.jpg}
-          \caption{estimate}
+          \includegraphics[width=450px]{Y1.jpg}
+          \caption{Y1 predition}
         \end{figure}
-    
-    
 
+        \begin{figure}[!hbpt]
+          \centering
+          \includegraphics[width=450px]{Y2.jpg}
+          \caption{Y2 predition}\label{1}
+        \end{figure}
 
-    \subsection{Other Assumptions}
-
-    \begin{itemize}
-    \item
-    \item
-    \item
-    \item
-    \end{itemize}
-
+        \begin{figure}[!hbpt]
+          \centering
+          \includegraphics[width=450px]{Y3.jpg}
+          \caption{Y3 predition}\label{2}
+        \end{figure}
 
 
 \section{Our suggestions to the governor}
